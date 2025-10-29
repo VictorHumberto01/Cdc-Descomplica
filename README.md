@@ -1,76 +1,137 @@
-# Guia de Commits e Pull Requests
-
-Criei este guia para padronizarmos nossos commits e pull requests. Sigam estas orientações para mantermos nosso código organizado.
+# 🧭 Guia de Commits, Pull Requests e Execução do Projeto
 
 ## ✨ Commits
 
-### Formato que quero que usem:
+**Formato:**
 ```
 tipo: descrição curta e clara
 
-Por que fez essa alteração? (opcional, mas recomendado)
+Por que fez essa alteração? (opcional)
 ```
 
-### Tipos de commit que usaremos:
-- `feat`: Nova funcionalidade 
-- `fix`: Correção de bug
-- `docs`: Documentação
-- `refactor`: Refatoração
-- `test`: Testes
+**Tipos:**
+- `feat`: nova funcionalidade
+- `fix`: correção de bug
+- `docs`: documentação
+- `refactor`: refatoração
+- `test`: testes
 
-### Exemplos práticos:
+**Exemplos:**
 ```
 feat: adiciona tela de login
-- Implementei formulário com email e senha
-- Adicionei validações básicas
+- Implementa formulário com email e senha
+- Adiciona validações básicas
 
 fix: corrige erro no cálculo do carrinho
 - O desconto não estava sendo aplicado corretamente
 ```
 
+---
+
 ## 🔄 Pull Requests
 
-### Como fazer:
-
-1. **Antes de começar:**
-   - Me avise qual feature vai fazer
-   - Atualize sua main: 
+1. **Antes de começar**
    ```bash
    git checkout main
    git pull
-   ```
-   - Crie sua branch: `git checkout -b feature/sua-feature`
-
-2. **Durante o desenvolvimento:**
-   - Faça commits frequentes
-   - Se tiver dúvidas, me chame
-   - Teste bem antes de subir
-
-3. **Para criar o PR:**
-   - Título: Mesmo formato dos commits
-   - Descrição: 
-   ```
-   O que fez?
-   - Liste as principais alterações
-
-   Como testar?
-   1. Passo a passo do teste
-   2. O que devemos ver funcionando
+   git checkout -b feature/sua-feature
    ```
 
-## ⚠️ Erros comuns que quero evitar:
+2. **Durante o desenvolvimento**
+   - Faça commits pequenos e frequentes
+   - Teste tudo antes de subir
+   - Se tiver dúvidas, chame o responsável
 
-- ❌ "ajustes diversos", "correções"
-- ❌ Vários bugs diferentes em um commit
-- ❌ PR sem descrição do que foi feito
-- ❌ Código não testado
+3. **Ao criar o PR**
+   - **Título:** mesmo formato dos commits
+   - **Descrição:**
+     ```
+     O que foi feito?
+     - Liste as alterações principais
 
-## 🎯 Processo ideal:
+     Como testar?
+     1. Passo a passo do teste
+     2. Resultado esperado
+     ```
 
+**Evite:**
+- Commits genéricos como “ajustes diversos”
+- PRs sem descrição
+- Subir código não testado
+
+**Fluxo ideal:**
 1. Avise que vai começar a feature
 2. Crie a branch
 3. Faça commits pequenos e claros
 4. Teste tudo
-5. Abra o PR e me marque
-6. Aguarde meu review
-7. Faça os ajustes se necessário
+5. Abra o PR e marque o revisor
+6. Ajuste se necessário
+
+---
+
+## 🚀 Como Rodar o Projeto Next.js
+
+### 📦 Requisitos
+- Node.js 18+
+- npm, yarn, pnpm ou bun
+
+### 🔧 Instalar Dependências
+```bash
+# npm
+npm install
+
+# yarn
+yarn
+
+# pnpm
+pnpm install
+
+# bun
+bun install
+```
+
+### ▶️ Fazer o build
+```bash
+npm run dev
+# ou
+yarn dev
+# ou
+pnpm dev
+# ou
+bun dev
+```
+App disponível em **http://localhost:3000**
+
+### 🏗️ Build e Produção
+```bash
+npm run build && npm run start
+# ou
+yarn build && yarn start
+# ou
+pnpm build && pnpm start
+# ou
+bun run build && bun run start
+```
+
+### 🧪 Testes
+```bash
+npm test
+npm run test:watch
+npm run lint
+```
+
+### 💡 Scripts sugeridos
+```json
+"scripts": {
+  "dev": "next dev",
+  "build": "next build",
+  "start": "next start",
+  "lint": "next lint",
+  "test": "jest",
+  "test:watch": "jest --watch"
+}
+```
+
+### ⚙️ Dicas
+- Configure o arquivo `.env.local` antes de rodar
+- Para usar outra porta: `PORT=4000 npm run start`
