@@ -1,135 +1,379 @@
 [
   {
-    "titulo": "Art. 6º",
-    "texto": "São direitos básicos do consumidor, sem prejuízo de outros que visem à melhoria da sua condição social:",
+    "titulo": "Art. 12",
+    "texto": "O fabricante, o produtor, o construtor, nacional ou estrangeiro, e o importador respondem, independentemente da existência de culpa, pela reparação dos danos causados aos consumidores por defeitos decorrentes de projeto, fabricação, construção, montagem, fórmulas, manipulação, apresentação ou acondicionamento de seus produtos, bem como por informações insuficientes ou inadequadas sobre sua utilização e riscos.",
     "paragrafos": [
       {
-        "texto": "Incluem-se entre esses direitos, de forma exemplificativa:",
+        "texto": "O produto é defeituoso quando não oferece a segurança que dele legitimamente se espera, levando-se em consideração as circunstâncias relevantes, entre as quais:",
         "incisos": [
-          "a informação adequada e clara sobre diferentes produtos e serviços, com especificação correta de quantidade, características, composição, qualidade e preço;",
-          "a proteção contra a publicidade enganosa e práticas comerciais abusivas;",
-          "a educação e divulgação sobre o consumo adequado dos produtos e serviços."
+          "sua apresentação;",
+          "o uso e os riscos que razoavelmente dele se esperam;",
+          "a época em que foi colocado em circulação."
         ]
       },
       {
-        "texto": "A efetivação desses direitos deverá observar os princípios da transparência e da boa-fé.",
+        "texto": "O produto não é considerado defeituoso pelo fato de outro de melhor qualidade ter sido colocado no mercado.",
         "incisos": []
+      },
+      {
+        "texto": "O fabricante, o construtor, o produtor ou importador só não será responsabilizado quando provar:",
+        "incisos": [
+          "que não colocou o produto no mercado;",
+          "que, embora haja colocado o produto no mercado, o defeito inexiste;",
+          "a culpa exclusiva do consumidor ou de terceiro."
+        ]
       }
     ],
     "incisos": [],
     "destaque": true,
-    "tags": ["direitos", "informação", "publicidade"]
+    "tags": ["responsabilidade", "vicio", "produto", "defeito"]
+  },
+  {
+    "titulo": "Art. 13",
+    "texto": "O comerciante é igualmente responsável, nos termos do artigo anterior, quando: Parágrafo único. Aquele que efetivar o pagamento ao prejudicado poderá exercer o direito de regresso contra os demais responsáveis, segundo sua participação na causação do evento danoso.",
+    "paragrafos": [],
+    "incisos": [
+      "o fabricante, o construtor, o produtor ou o importador não puderem ser identificados;",
+      "o produto for fornecido sem identificação clara do seu fabricante, produtor, construtor ou importador;",
+      "não conservar adequadamente os produtos perecíveis."
+    ],
+    "destaque": true,
+    "tags": ["comerciante", "responsabilidade", "regresso", "pagamento"]
   },
   {
     "titulo": "Art. 14",
-    "texto": "O fornecedor de serviços responde, independentemente da existência de culpa, pela reparação dos danos causados aos consumidores por defeitos relativos à prestação dos serviços.",
+    "texto": "O fornecedor de serviços responde, independentemente da existência de culpa, pela reparação dos danos causados aos consumidores por defeitos relativos à prestação dos serviços, bem como por informações insuficientes ou inadequadas sobre sua fruição e riscos.",
     "paragrafos": [
       {
-        "texto": "A responsabilidade do fornecedor abrange falhas na execução, na qualidade e na segurança do serviço prestado.",
+        "texto": "O serviço é defeituoso quando não fornece a segurança que o consumidor dele pode esperar, levando-se em consideração as circunstâncias relevantes, entre as quais:",
+        "incisos": [
+          "o modo de seu fornecimento;",
+          "o resultado e os riscos que razoavelmente dele se esperam;",
+          "a época em que foi fornecido."
+        ]
+      },
+      {
+        "texto": "O serviço não é considerado defeituoso pela adoção de novas técnicas.",
         "incisos": []
       },
       {
-        "texto": "Aplica-se também quando houver omissão ou informação insuficiente sobre o serviço prestado.",
+        "texto": "O fornecedor de serviços só não será responsabilizado quando provar:",
+        "incisos": [
+          "que, tendo prestado o serviço, o defeito inexiste;",
+          "a culpa exclusiva do consumidor ou de terceiro."
+        ]
+      },
+      {
+        "texto": "A responsabilidade pessoal dos profissionais liberais será apurada mediante a verificação de culpa.",
         "incisos": []
       }
     ],
     "incisos": [],
     "destaque": true,
-    "tags": ["responsabilidade", "serviços"]
+    "tags": ["fornecedor", "serviço", "defeito", "riscos"]
   },
   {
     "titulo": "Art. 18",
-    "texto": "Os fornecedores respondem pelos vícios de qualidade ou quantidade que tornem os produtos impróprios ou inadequados ao consumo a que se destinam, ou que diminuam o seu valor.",
+    "texto": "Os fornecedores de produtos de consumo duráveis ou não duráveis respondem solidariamente pelos vícios de qualidade ou quantidade que os tornem impróprios ou inadequados ao consumo a que se destinam ou lhes diminuam o valor, assim como por aqueles decorrentes da disparidade, com a indicações constantes do recipiente, da embalagem, rotulagem ou mensagem publicitária, respeitadas as variações decorrentes de sua natureza, podendo o consumidor exigir a substituição das partes viciadas.",
     "paragrafos": [
       {
-        "texto": "O consumidor pode exigir a substituição do produto, a restituição da quantia paga ou o abatimento proporcional do preço, conforme o caso.",
-        "incisos": []
-      },
-      {
-        "texto": "Não sendo o vício sanado no prazo máximo de 30 dias, nos termos legais, configura-se o direito do consumidor às alternativas previstas acima.",
-        "incisos": []
-      }
-    ],
-    "incisos": [],
-    "destaque": false,
-    "tags": ["produtos", "vícios", "garantia"]
-  },
-  {
-    "titulo": "Art. 22",
-    "texto": "Os órgãos públicos, por si ou suas empresas, concessionárias, permissionárias ou sob qualquer outra forma de empreendimento, são obrigados a fornecer serviços adequados, eficientes, seguros e, quanto aos essenciais, contínuos.",
-    "paragrafos": [
-      {
-        "texto": "O usuário tem direito à adequada prestação do serviço público, com padrões mínimos de qualidade e segurança.",
-        "incisos": []
-      }
-    ],
-    "incisos": [],
-    "destaque": false,
-    "tags": ["serviços públicos", "deveres"]
-  },
-  {
-    "titulo": "Art. 42",
-    "texto": "Na cobrança de débitos, o consumidor inadimplente não será exposto a ridículo, nem será submetido a qualquer tipo de constrangimento ou ameaça.",
-    "paragrafos": [
-      {
-        "texto": "O consumidor cobrado em quantia indevida tem direito à repetição do indébito, por valor igual ao dobro do que pagou em excesso, salvo hipótese de engano justificável.",
-        "incisos": []
-      }
-    ],
-    "incisos": [],
-    "destaque": true,
-    "tags": ["cobrança", "indenização"]
-  },
-  {
-    "titulo": "Art. 46",
-    "texto": "Os contratos de adesão devem ser redigidos de modo a facilitar sua compreensão, com cláusulas que não coloquem o consumidor em desvantagem exagerada.",
-    "paragrafos": [
-      {
-        "texto": "Cláusulas ambíguas serão interpretadas da maneira mais favorável ao consumidor.",
-        "incisos": []
-      },
-      {
-        "texto": "São nulas as cláusulas que impliquem renúncia ou disposição de direitos do consumidor.",
-        "incisos": []
-      }
-    ],
-    "incisos": [],
-    "destaque": false,
-    "tags": ["contratos", "adesão"]
-  },
-  {
-    "titulo": "Art. 104-Aº",
-    "texto": "A requerimento do consumidor superendividado pessoa natural, ...",
-    "paragrafos": [
-      {
-        "texto": "Excluem-se do processo de repactuação, observadas hipóteses previstas em lei, créditos decorrentes de prejuízos causados por dolo do consumidor.",
-        "incisos": []
-      },
-      {
-        "texto": "Constarão do plano de pagamento referido no § 3º deste artigo:",
+        "texto": "Não sendo o vício sanado no prazo máximo de trinta dias, pode o consumidor exigir, alternativamente e à sua escolha:",
         "incisos": [
-          "medidas de dilação dos prazos de pagamento que viabilizem a manutenção do mínimo existencial do consumidor;",
-          "referência à suspensão ou à extinção das ações judiciais em curso relacionadas ao débito repactuado;",
-          "data a partir da qual será providenciada a exclusão do consumidor de cadastros negativos, quando cabível;",
-          "condicionamento de seus efeitos à abstenção de práticas que agravem a situação do consumidor, nos termos previstos em lei."
+          "a substituição do produto por outro da mesma espécie, em perfeitas condições de uso;",
+          "a restituição imediata da quantia paga, monetariamente atualizada, sem prejuízo de eventuais perdas e danos;",
+          "o abatimento proporcional do preço."
+        ]
+      },
+      {
+        "texto": "Poderão as partes convencionar a redução ou ampliação do prazo previsto no parágrafo anterior, não podendo ser inferior a sete nem superior a cento e oitenta dias. Nos contratos de adesão, a cláusula de prazo deverá ser convencionada em separado, por meio de manifestação expressa do consumidor.",
+        "incisos": []
+      },
+      {
+        "texto": "O consumidor poderá fazer uso imediato das alternativas do § 1° deste artigo sempre que, em razão da extensão do vício, a substituição das partes viciadas puder comprometer a qualidade ou características do produto, diminuir-lhe o valor ou se tratar de produto essencial.",
+        "incisos": []
+      },
+      {
+        "texto": "Tendo o consumidor optado pela alternativa do inciso I do § 1° deste artigo, e não sendo possível a substituição do bem, poderá haver substituição por outro de espécie, marca ou modelo diversos, mediante complementação ou restituição de eventual diferença de preço, sem prejuízo do disposto nos incisos II e III do § 1° deste artigo.",
+        "incisos": []
+      },
+      {
+        "texto": "No caso de fornecimento de produtos in natura, será responsável perante o consumidor o fornecedor imediato, exceto quando identificado claramente seu produtor.",
+        "incisos": []
+      },
+      {
+        "texto": "São impróprios ao uso e consumo: aqueles em desacordo com as normas regulamentares de fabricação, distribuição ou apresentação;",
+        "incisos": [
+          "os produtos cujos prazos de validade estejam vencidos;",
+          "os produtos deteriorados, alterados, adulterados, avariados, falsificados, corrompidos, fraudados, nocivos à vida ou à saúde, perigosos ou, ainda,",
+          "os produtos que, por qualquer motivo, se revelem inadequados ao fim a que se destinam."
         ]
       }
     ],
     "incisos": [],
     "destaque": true,
-    "tags": ["superendividamento", "repactuação"]
+    "tags": [
+      "vício do produto",
+      "produto impróprio",
+      "responsabilidade solidária",
+      "substituição de produto",
+      "direitos do consumidor",
+      "prazo de conserto",
+      "produto essencial",
+      "fornecedor",
+      "defeito de fabricação",
+      "consumo"
+    ]
   },
+
   {
-    "titulo": "Art. 56",
-    "texto": "É vedado ao fornecedor de produtos ou serviços condicionar o fornecimento de produto ou serviço ao fornecimento de outro produto ou serviço, salvo quando justificadamente ligado ao objeto principal.",
+    "titulo": "Art. 19",
+    "texto": "Os fornecedores respondem solidariamente pelos vícios de quantidade do produto sempre que, respeitadas as variações decorrentes de sua natureza, seu conteúdo líquido for inferior às indicações constantes do recipiente, da embalagem, rotulagem ou de mensagem publicitária, podendo o consumidor exigir, alternativamente e à sua escolha:",
     "paragrafos": [
       {
-        "texto": "Práticas que caracterizem venda casada são consideradas abuso e infração às normas de proteção ao consumidor.",
+        "texto": "Aplica-se a este artigo o disposto no § 4° do artigo anterior.",
+        "incisos": []
+      },
+      {
+        "texto": "O fornecedor imediato será responsável quando fizer a pesagem ou a medição e o instrumento utilizado não estiver aferido segundo os padrões oficiais.",
+        "incisos": []
+      }
+    ],
+    "incisos": [
+      "o abatimento proporcional do preço;",
+      "complementação do peso ou medida;",
+      "a substituição do produto por outro da mesma espécie, marca ou modelo, sem os aludidos vícios;",
+      "a restituição imediata da quantia paga, monetariamente atualizada, sem prejuízo de eventuais perdas e danos."
+    ],
+    "destaque": true,
+    "tags": ["fornecedores", "vicios", "quantidade", "produto"]
+  },
+  {
+    "titulo": "Art. 20",
+    "texto": "O fornecedor de serviços responde pelos vícios de qualidade que os tornem impróprios ao consumo ou lhes diminuam o valor, e por aqueles decorrentes da disparidade com as indicações constantes da oferta ou mensagem publicitária, podendo o consumidor exigir, alternativamente e à sua escolha:",
+    "paragrafos": [
+      {
+        "texto": "A reexecução dos serviços poderá ser confiada a terceiros devidamente capacitados, por conta e risco do fornecedor.",
+        "incisos": []
+      },
+      {
+        "texto": "São impróprios os serviços que se mostrem inadequados para os fins que razoavelmente deles se esperam, bem como aqueles que não atendam as normas regulamentares de prestabilidade.",
+        "incisos": []
+      }
+    ],
+    "incisos": [
+      "a reexecução dos serviços, sem custo adicional e quando cabível;",
+      "a restituição imediata da quantia paga, monetariamente atualizada, sem prejuízo de eventuais perdas e danos;",
+      "o abatimento proporcional do preço."
+    ],
+    "destaque": true,
+    "tags": ["fornecedor", "servicos", "vicios", "qualidade"]
+  },
+  {
+    "titulo": "Art. 21",
+    "texto": "No fornecimento de serviços que tenham por objetivo a reparação de qualquer produto considerar-se-á implícita a obrigação do fornecedor de empregar componentes de reposição originais adequados e novos, ou que mantenham as especificações técnicas do fabricante, salvo, quanto a estes últimos, autorização em contrário do consumidor.",
+    "paragrafos": [],
+    "incisos": [],
+    "destaque": true,
+    "tags": ["fornecimento", "servicos", "reparacao", "produto"]
+  },
+  {
+    "titulo": "Art. 22",
+    "texto": "Os órgãos públicos, por si ou suas empresas, concessionárias, permissionárias ou sob qualquer outra forma de empreendimento, são obrigados a fornecer serviços adequados, eficientes, seguros e, quanto aos essenciais, contínuos. Parágrafo único. Nos casos de descumprimento, total ou parcial, das obrigações referidas neste artigo, serão as pessoas jurídicas compelidas a cumpri-las e a reparar os danos causados, na forma prevista neste código.",
+    "paragrafos": [],
+    "incisos": [],
+    "destaque": true,
+    "tags": ["orgaos", "publicos", "servicos", "essenciais"]
+  },
+
+  {
+    "titulo": "Art. 25",
+    "texto": "É vedada a estipulação contratual de cláusula que impossibilite, exonere ou atenue a obrigação de indenizar prevista nesta e nas seções anteriores.",
+    "paragrafos": [
+      {
+        "texto": "Havendo mais de um responsável pela causação do dano, todos responderão solidariamente pela reparação prevista nesta e nas seções anteriores.",
+        "incisos": []
+      },
+      {
+        "texto": "Sendo o dano causado por componente ou peça incorporada ao produto ou serviço, são responsáveis solidários seu fabricante, construtor ou importador e o que realizou a incorporação.",
+        "incisos": []
+      }
+    ],
+    "tags": ["clausula", "contratual", "indenizacao", "vedacao"]
+  },
+  {
+    "titulo": "Art. 39",
+    "texto": "É vedado ao fornecedor de produtos ou serviços, dentre outras práticas abusivas: quantitativos; usos e costumes; seus produtos ou serviços; anteriores entre as partes; normas específicas não existirem, pela Associação Brasileira de Normas Técnicas ou outra entidade credenciada pelo Conselho Nacional de Metrologia, Normalização e Qualidade Industrial (Conmetro); casos de intermediação regulados em leis especiais; Parágrafo único. Os serviços prestados e os produtos remetidos ou entregues ao consumidor, na hipótese prevista no inciso III, equiparam-se às amostras grátis, inexistindo obrigação de pagamento.",
+    "paragrafos": [],
+    "incisos": [
+      "condicionar o fornecimento de produto ou de serviço ao fornecimento de outro produto ou serviço, bem como, sem justa causa, a limites",
+      "recusar atendimento às demandas dos consumidores, na exata medida de suas disponibilidades de estoque, e, ainda, de conformidade com os",
+      "enviar ou entregar ao consumidor, sem solicitação prévia, qualquer produto, ou fornecer qualquer serviço;",
+      "prevalecer-se da fraqueza ou ignorância do consumidor, tendo em vista sua idade, saúde, conhecimento ou condição social, para impingir-lhe",
+      "exigir do consumidor vantagem manifestamente excessiva;",
+      "executar serviços sem a prévia elaboração de orçamento e autorização expressa do consumidor, ressalvadas as decorrentes de práticas",
+      "repassar informação depreciativa, referente a ato praticado pelo consumidor no exercício de seus direitos;",
+      "colocar, no mercado de consumo, qualquer produto ou serviço em desacordo com as normas expedidas pelos órgãos oficiais competentes ou, se",
+      "recusar a venda de bens ou a prestação de serviços, diretamente a quem se disponha a adquiri-los mediante pronto pagamento, ressalvados os",
+      "elevar sem justa causa o preço de produtos ou serviços. (Incluído pela Lei nº 8.884, de 11.6.1994)",
+      "Dispositivo incluído pela MPV nº 1.890-67, de 22.10.1999, transformado em inciso XIII, quando da conversão na Lei nº 9.870, de 23.11.1999",
+      "deixar de estipular prazo para o cumprimento de sua obrigação ou deixar a fixação de seu termo inicial a seu exclusivo critério. (Incluído pela Lei nº 9.008, de 21.3.1995)",
+      "aplicar fórmula ou índice de reajuste diverso do legal ou contratualmente estabelecido. (Incluído pela Lei nº 9.870, de 23.11.1999)",
+      "permitir o ingresso em estabelecimentos comerciais ou de serviços de um número maior de consumidores que o fixado pela autoridade"
+    ],
+    "destaque": true,
+    "tags": ["fornecedor", "produtos", "servicos", "praticas", "abusivas"]
+  },
+  {
+    "titulo": "Art. 40",
+    "texto": "O fornecedor de serviço será obrigado a entregar ao consumidor orçamento prévio discriminando o valor da mão-de-obra, dos materiais e equipamentos a serem empregados, as condições de pagamento, bem como as datas de início e término dos serviços.",
+    "paragrafos": [
+      {
+        "texto": "Salvo estipulação em contrário, o valor orçado terá validade pelo prazo de dez dias, contado de seu recebimento pelo consumidor.",
+        "incisos": []
+      },
+      {
+        "texto": "Uma vez aprovado pelo consumidor, o orçamento obriga os contraentes e somente pode ser alterado mediante livre negociação das partes.",
+        "incisos": []
+      },
+      {
+        "texto": "O consumidor não responde por quaisquer ônus ou acréscimos decorrentes da contratação de serviços de terceiros não previstos no orçamento",
         "incisos": []
       }
     ],
     "incisos": [],
     "destaque": false,
-    "tags": ["venda casada", "práticas comerciais"]
+    "tags": ["fornecedor", "servico", "orcamento", "previo"]
+  },
+  {
+    "titulo": "Art. 41",
+    "texto": "No caso de fornecimento de produtos ou de serviços sujeitos ao regime de controle ou de tabelamento de preços, os fornecedores deverão respeitar os limites oficiais sob pena de não o fazendo, responderem pela restituição da quantia recebida em excesso, monetariamente atualizada, podendo o consumidor exigir à sua escolha, o desfazimento do negócio, sem prejuízo de outras sanções cabíveis.",
+    "paragrafos": [],
+    "incisos": [],
+    "destaque": true,
+    "tags": ["fornecimento", "produtos", "servicos", "controle", "precos"]
+  },
+  {
+    "titulo": "Quais os direitos do consumidor estabelecidos no Código do Consumidor?",
+    "texto": "Desde 1990, ano de início da vigência do Código do Consumidor, o fornecedor passou a ter obrigação de oferecer produto ou serviço com qualidade garantida. O consumidor tem o direito de comprar o produto ou a contratar o serviço em perfeitas condições. O fornecedor tem a obrigação de vender o produto ou prestar o serviço de acordo com a qualidade contratada.",
+    "paragrafos": [
+      {
+        "texto": "Boas condições significa receber o produto de acordo com o descrito no contrato, funcionando conforme o prometido no momento da venda, também não oferecer perigo à vida, à saúde ou à segurança das pessoas; oferecer acesso a todas as informações do produto, tal como funcionamento, composição e cuidados necessários ao bom desempenho do produto. A propaganda deve ser honesta e corresponder fielmente ao produto. Quando se tratar de prestação de serviço, o contrato deve expressar as condições com clareza e objetividade, caso contrário o consumidor tem direito à revisão do contrato com modificação das condições que não estiverem claras.",
+        "incisos": []
+      },
+      {
+        "texto": "O consumidor tem direito à indenização e à reparação dos danos causados pela violação do seu direito, que poderá ser em dinheiro, serviço ou outro meio lícito, desde que tenha sido aceito em acordo entre as partes, ou tenha sido fruto de decisão judicial.",
+        "incisos": []
+      }
+    ],
+    "incisos": [],
+    "destaque": true,
+    "tags": ["direitos", "consumidor", "codigo", "consumidor"]
+  },
+  {
+    "titulo": "Quais as obrigações do fornecedor?",
+    "texto": "O fornecedor não pode colocar a venda produtos que possam causar danos a saúde e à segurança do consumidor. Entretanto, produtos como veneno, inseticidas e outros, são vendidos com autorização, mas devem ter na embalagem orientações de uso, precauções e o que deve ser feito em caso de acidente, tudo em letras grandes, legíveis e escrito com clareza.",
+    "paragrafos": [
+      {
+        "texto": "No caso de o produto ter sido colocado à venda e, posteriormente, o fabricante descobrir que oferece algum perigo à integridade do consumidor, o fabricante tem a obrigação de comunicar o fato ocorrido às autoridades o mais rápido possível e, também, anunciar amplamente nos meios de comunicação para informar à população sobre o perigo descoberto. Além disso, o fabricante tem que receber o produto de volta, ainda que esteja usado, para reparação do item perigoso, tudo gratuitamente. Se o fabricante agir de modo diferente, o consumidor tem o direito de pedir indenização pelo perigo a que foi exposto.",
+        "incisos": []
+      },
+      {
+        "texto": "O produto ofertado pelo fornecedor deve, obrigatoriamente, corresponder àquele efetivamente entregue ao cliente, tanto na qualidade do produto como no preço anunciado.",
+        "incisos": []
+      }
+    ],
+    "incisos": [],
+    "destaque": true,
+    "tags": ["obrigacoes", "fornecedor", "danos", "saude"]
+  },
+  {
+    "titulo": "Quais as proibições impostas ao fornecedor?",
+    "texto": "Nas relações de consumo, as práticas abusivas do mau fornecedor são recorrentes e criativas, tornando uma tarefa quase impossível prever todas as ações, por isso o legislador estabeleceu alguns exemplos com os abusos recorrentes. A relação de consumo é perfeita quando ambas as partes conhecem e consentem, de livre e espontânea vontade, as condições do contrato, verbal ou escrito e não extrapolem os limites da lei (arts. 39 e 51).",
+    "paragrafos": [],
+    "incisos": [
+      "limitar o consumidor de comprar a quantidade de produtos por ele desejada, sem um motivo justo;",
+      "enviar produtos ou executar serviços, para o consumidor, sem ter sido solicitado; caso faça, não poderá cobrar pelo produto ou serviço;",
+      "aproveitar-se da ignorância ou fraqueza do consumidor para vender seus produtos;",
+      "elevar sem justa causa os preços;",
+      "demorar, além do prazo combinado, para executar o serviço ou entregar o produto;",
+      "colocar à venda produtos sem autorização do órgão competente para circular no mercado, tais como: fórmulas caseiras, produtos naturais sem prévio registro etc.;",
+      "repassar informação depreciativa sobre o consumidor;",
+      "deixar de estipular prazo para o cumprimento de suas obrigações."
+    ],
+    "destaque": true,
+    "tags": ["proibicoes", "fornecedor", "praticas", "abusivas"]
+  },
+  {
+    "titulo": "Quais informações devem constar no produto?",
+    "texto": "O rótulo deve ser claro, objetivo, conter prazo de validade e descrição dos componentes do produto e escrito em português. Todos os produtos importados, obrigatoriamente, deverão ter as informações traduzidas para o português.",
+    "paragrafos": [
+      {
+        "texto": "Se o produto oferecer algum risco à saúde ou à integridade, tal como venenos, deve alertar o consumidor sobre o perigo.",
+        "incisos": []
+      },
+      {
+        "texto": "Em caso de oferta ou venda por telefone, o produto deve conter na embalagem o nome do fabricante e endereço, bem como em todos os papéis de publicidade e documentos como nota de pedido e fiscal.",
+        "incisos": []
+      }
+    ],
+    "incisos": [],
+    "destaque": true,
+    "tags": ["informacoes", "produto", "rotulo", "validade"]
+  },
+  {
+    "titulo": "Qual a obrigação dos fabricantes em relação à assistência técnica e à manutenção?",
+    "texto": "Os fabricantes nacionais e os fornecedores de produtos importados devem garantir o fornecimento de peças e de componentes, ainda que a fabricação do produto tenha sido encerrada, por um tempo estabelecido em lei para cada categoria de produto, de modo a permitir a substituição de peças e componentes que apresentem defeitos durante o uso.",
+    "paragrafos": [
+      {
+        "texto": "A substituição de peças será feita por conta do fornecedor se o produto reclamado estiver dentro do prazo de 30 dias para bens não duráveis ou 90 dias para bens duráveis, ou ainda se estiver na vigência da garantia. Fora destes prazos as despesas correm por conta do consumidor.",
+        "incisos": []
+      }
+    ],
+    "incisos": [],
+    "destaque": true,
+    "tags": ["obrigacao", "fabricantes", "assistencia", "tecnica"]
+  },
+  {
+    "titulo": "O que acontece se a lei for desrespeitada?",
+    "texto": "Caso a lei seja desrespeitada, o consumidor deve juntar as provas da violação do direito a fim de obter a indenização e a reparação dos prejuízos causados por aquela violação. Para isso, o consumidor deve procurar um órgão de defesa do consumidor e relatar o ocorrido. então será orientado sobre os procedimentos, documentos e providências necessárias para ter efetivada as reparações garantidas em lei. É possível prevenir, antes que a lei seja violada; o consumidor deve procurar um órgão de defesa do consumidor para obter as garantias da lei.",
+    "paragrafos": [
+      {
+        "texto": "Se o fornecedor vender produto defeituoso e não consertá-lo no máximo de 30 dias, o consumidor tem direito de escolher uma das quatro alternativas (art.18):",
+        "incisos": [
+          "substituir o produto por outro igual sem defeitos;",
+          "substituir por outro parecido, se houver diferença de preço para mais ou para menos deve ser compensada com o pagamento ou a restituição da diferença;",
+          "receber de volta o dinheiro pago pelo produto mediante a devolução do produto defeituoso;",
+          "abatimento no preço pago em compensação ao defeito do produto."
+        ]
+      }
+    ],
+    "incisos": [],
+    "destaque": true,
+    "tags": ["lei", "desrespeitada", "indenizacao", "reparacao"]
+  },
+  {
+    "titulo": "Qual o prazo para reclamar o produto?",
+    "texto": "No Código existem duas determinações de prazo para reclamar o produto defeituoso: noventa dias para produtos de longa duração e trinta dias para os de curta duração, a partir da data da entrega. Para o produto adquirido com defeitos perceptíveis no recebimento e para produtos com defeito imperceptíveis, também no recebimento, para aqueles denominados ocultos, o prazo também é de 30 dias, porém, a partir da data do descobrimento do defeito.",
+    "paragrafos": [
+      {
+        "texto": "Produtos de curta duração são aqueles de uso comum do dia a dia tais como: alimentação, bebida, roupa, livros, bolsa etc.",
+        "incisos": []
+      },
+      {
+        "texto": "Produtos de longa duração são aqueles cuja vida útil é maior tais como: veículos, eletroeletrônicos e eletrodomésticos em geral",
+        "incisos": []
+      },
+      {
+        "texto": "Implica a perda do direito de reclamar não registrar a reclamação dentro de 30 dias, mesmo que o produto tenha sido entregue com defeito. O registro da reclamação deve ser feito na loja, onde o bem foi comprado, mas em caso de recusa, o consumidor deve procurar um órgão oficial do consumidor. Ir ao Procon é uma boa ideia.",
+        "incisos": []
+      },
+      {
+        "texto": "Se houver alguma reclamação, com registro comprovado, durante o prazo estipulado na lei, interrompe a contagem do prazo de perda do direito de reclamar. Assim, o consumidor poderá reclamar seu prejuízo e pleitear os reparos indenizatórios, que prescrevem em cinco anos, contados a partir do conhecimento do defeito. Note que os prazos para reclamar o produto são diferentes do prazo para pedir indenização.",
+        "incisos": []
+      }
+    ],
+    "incisos": [],
+    "destaque": true,
+    "tags": ["prazo", "reclamar", "produto", "defeito"]
   }
 ]
