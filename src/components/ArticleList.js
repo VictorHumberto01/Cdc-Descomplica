@@ -16,7 +16,7 @@ export default function ArticleList({
   return (
     <div>
       <div className="mb-3 flex items-center justify-between">
-        <h2 className="text-sm font-medium">
+        <h2 className="text-sm text-slate-600 font-medium">
           Resultados para:{" "}
           <span className="font-semibold">"{displayQuery}"</span>
         </h2>

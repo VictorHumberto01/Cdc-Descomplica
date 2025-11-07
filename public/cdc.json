@@ -29,6 +29,18 @@
     "tags": ["responsabilidade", "vicio", "produto", "defeito"]
   },
   {
+    "titulo": "Art. 49",
+    "texto": "O consumidor pode desistir do contrato, no prazo de 7 dias a contar de sua assinatura ou do ato de recebimento do produto ou serviço, sempre que a contratação de fornecimento de produtos e serviços ocorrer fora do estabelecimento comercial, especialmente por telefone ou a domicilio.",
+    "paragrafos": [
+      {
+        "texto": "Se o consumidor exercitar o direito de arrependimento previsto neste artigo, os valores eventualmente pagos, a qualquer título, durante o prazo de reflexão, serão devolvidos, de imediato, monetariamente atualizados."
+      }
+    ],
+    "incisos": [],
+    "destaque": false,
+    "tags": ["devolução", "produto"]
+  },
+  {
     "titulo": "Art. 13",
     "texto": "O comerciante é igualmente responsável, nos termos do artigo anterior, quando: Parágrafo único. Aquele que efetivar o pagamento ao prejudicado poderá exercer o direito de regresso contra os demais responsáveis, segundo sua participação na causação do evento danoso.",
     "paragrafos": [],
@@ -121,10 +133,10 @@
       "produto essencial",
       "fornecedor",
       "defeito de fabricação",
-      "consumo"
+      "consumo",
+      "devolução"
     ]
   },
-
   {
     "titulo": "Art. 19",
     "texto": "Os fornecedores respondem solidariamente pelos vícios de quantidade do produto sempre que, respeitadas as variações decorrentes de sua natureza, seu conteúdo líquido for inferior às indicações constantes do recipiente, da embalagem, rotulagem ou de mensagem publicitária, podendo o consumidor exigir, alternativamente e à sua escolha:",
@@ -184,7 +196,6 @@
     "destaque": true,
     "tags": ["orgaos", "publicos", "servicos", "essenciais"]
   },
-
   {
     "titulo": "Art. 25",
     "texto": "É vedada a estipulação contratual de cláusula que impossibilite, exonere ou atenue a obrigação de indenizar prevista nesta e nas seções anteriores.",
@@ -334,24 +345,6 @@
     "tags": ["obrigacao", "fabricantes", "assistencia", "tecnica"]
   },
   {
-    "titulo": "O que acontece se a lei for desrespeitada?",
-    "texto": "Caso a lei seja desrespeitada, o consumidor deve juntar as provas da violação do direito a fim de obter a indenização e a reparação dos prejuízos causados por aquela violação. Para isso, o consumidor deve procurar um órgão de defesa do consumidor e relatar o ocorrido. então será orientado sobre os procedimentos, documentos e providências necessárias para ter efetivada as reparações garantidas em lei. É possível prevenir, antes que a lei seja violada; o consumidor deve procurar um órgão de defesa do consumidor para obter as garantias da lei.",
-    "paragrafos": [
-      {
-        "texto": "Se o fornecedor vender produto defeituoso e não consertá-lo no máximo de 30 dias, o consumidor tem direito de escolher uma das quatro alternativas (art.18):",
-        "incisos": [
-          "substituir o produto por outro igual sem defeitos;",
-          "substituir por outro parecido, se houver diferença de preço para mais ou para menos deve ser compensada com o pagamento ou a restituição da diferença;",
-          "receber de volta o dinheiro pago pelo produto mediante a devolução do produto defeituoso;",
-          "abatimento no preço pago em compensação ao defeito do produto."
-        ]
-      }
-    ],
-    "incisos": [],
-    "destaque": true,
-    "tags": ["lei", "desrespeitada", "indenizacao", "reparacao"]
-  },
-  {
     "titulo": "Qual o prazo para reclamar o produto?",
     "texto": "No Código existem duas determinações de prazo para reclamar o produto defeituoso: noventa dias para produtos de longa duração e trinta dias para os de curta duração, a partir da data da entrega. Para o produto adquirido com defeitos perceptíveis no recebimento e para produtos com defeito imperceptíveis, também no recebimento, para aqueles denominados ocultos, o prazo também é de 30 dias, porém, a partir da data do descobrimento do defeito.",
     "paragrafos": [
@@ -375,5 +368,104 @@
     "incisos": [],
     "destaque": true,
     "tags": ["prazo", "reclamar", "produto", "defeito"]
+  },
+  {
+    "titulo": "Art. 26",
+    "texto": "O direito de reclamar pelos vícios aparentes ou de fácil constatação caduca em:",
+    "paragrafos": [
+      {
+        "texto": "",
+        "incisos": [
+          "trinta dias, tratando-se de fornecimento de serviço e de produtos não duráveis",
+          "noventa dias, tratando-se de fornecimento de serviço e de produtos duráveis"
+        ]
+      },
+      {
+        "texto": "Inicia-se a contagem do prazo decadencial a partir da entrega efetiva do produto ou do término da execução dos serviços.",
+        "incisos": []
+      },
+      {
+        "texto": "Obstam a decadência:",
+        "incisos": [
+          "a reclamação comprovadamente formulada pelo consumidor perante o fornecedor de produtos e serviços até a resposta negativa correspondente, que deve ser transmitida de forma inequívoca",
+          "(Vetado)",
+          "a instauração de inquérito civil, até seu encerramento"
+        ]
+      },
+      {
+        "texto": "Tratando-se de vício oculto, o prazo decadencial inicia-se no momento em que ficar evidenciado o defeito.",
+        "incisos": []
+      }
+    ],
+    "destaque": true,
+    "tags": [
+      "prazo",
+      "reclamação",
+      "vício",
+      "produto",
+      "serviço",
+      "decadência",
+      "garantia"
+    ]
+  },
+  {
+    "titulo": "Art. 35",
+    "texto": "Se o fornecedor de produtos ou serviços recusar cumprimento à oferta, apresentação ou publicidade, o consumidor poderá, alternativamente e à sua livre escolha:",
+    "paragrafos": [
+      {
+        "texto": null,
+        "incisos": [
+          "exigir o cumprimento forçado da obrigação, nos termos da oferta, apresentação ou publicidade",
+          "aceitar outro produto ou prestação de serviço equivalente",
+          "rescindir o contrato, com direito à restituição de quantia eventualmente antecipada, monetariamente atualizada, e a perdas e danos"
+        ]
+      }
+    ],
+    "destaque": true,
+    "tags": [
+      "oferta",
+      "publicidade",
+      "descumprimento",
+      "rescisão",
+      "direitos do consumidor"
+    ]
+  },
+  {
+    "titulo": "Art. 36",
+    "texto": "A publicidade deve ser veiculada de tal forma que o consumidor, fácil e imediatamente, a identifique como tal.",
+    "paragrafos": [
+      {
+        "texto": "O fornecedor, na publicidade de seus produtos ou serviços, manterá, em seu poder, para informação dos legítimos interessados, os dados fáticos, técnicos e científicos que dão sustentação à mensagem.",
+        "incisos": []
+      }
+    ],
+    "destaque": true,
+    "tags": ["publicidade", "transparência", "informação"]
+  },
+  {
+    "titulo": "Art. 37",
+    "texto": "É proibida toda publicidade enganosa ou abusiva.",
+    "paragrafos": [
+      {
+        "texto": "É enganosa qualquer modalidade de informação ou comunicação de caráter publicitário, inteira ou parcialmente falsa, ou, por qualquer outro modo, mesmo por omissão, capaz de induzir em erro o consumidor a respeito da natureza, características, qualidade, quantidade, propriedades, origem, preço e quaisquer outros dados sobre produtos e serviços.",
+        "incisos": []
+      },
+      {
+        "texto": "É abusiva, dentre outras a publicidade discriminatória de qualquer natureza, a que incite à violência, explore o medo ou a superstição, se aproveite da deficiência de julgamento e experiência da criança, desrespeita valores ambientais, ou que seja capaz de induzir o consumidor a se comportar de forma prejudicial ou perigosa à sua saúde ou segurança.",
+        "incisos": []
+      },
+      {
+        "texto": "Para os efeitos deste código, a publicidade é enganosa por omissão quando deixar de informar sobre dado essencial do produto ou serviço.",
+        "incisos": []
+      }
+    ],
+    "destaque": true,
+    "tags": [
+      "publicidade enganosa",
+      "publicidade abusiva",
+      "propaganda",
+      "propaganda enganosa",
+      "proteção ao consumidor"
+    ]
   }
 ]

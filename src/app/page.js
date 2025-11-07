@@ -5,21 +5,7 @@ import SearchBar from "../components/SearchBar";
 import LoadingSpinner from "../components/LoadingSpinner";
 import ArticleList from "../components/ArticleList";
 import ArticleCard from "../components/ArticleCard";
-
-/**
- * Objetivo:
- * - Ajudar você a encontrar, de forma rápida e intuitiva, artigos e trechos relevantes do CDC.
- * - Pensado para ser prático: digite palavras-chave e veja resultados ou explore os destaques
- *   quando não houver uma busca ativa.
- *
- * Como a busca funciona:
- * - A busca é feita no próprio navegador sobre os dados carregados (arquivo de referência).
- * - É uma correspondência por substring, sem diferenciar maiúsculas de minúsculas:
- *   o sistema procura o termo em título, texto principal, parágrafos, incisos e tags.
- * - Para evitar resultados irrelevantes, a pesquisa só ativa a partir de 2 caracteres.
- * - A interface aplica um pequeno debounce (retardo) para atualizar o que é exibido enquanto
- *   você digita, deixando a experiência mais fluida.
- */
+import Navbar from "../components/Navbar";
 
 export default function Home() {
   const [items, setItems] = useState([]);
@@ -87,34 +73,20 @@ export default function Home() {
   }, [items]);
 
   return (
-    <main className="min-h-screen bg-gray-50">
-      <div className="mx-auto max-w-3xl px-4 py-6 sm:px-6 sm:py-8 md:py-12">
-        <section className="mb-8">
-          <div className="flex items-center gap-3 mb-6">
-            <div className="h-12 w-12 rounded-xl bg-amber-500/10 ring-1 ring-amber-500/20 flex items-center justify-center">
-              <svg
-                className="h-6 w-6 text-amber-600"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"
-                />
-              </svg>
-            </div>
-            <div>
-              <h1 className="text-2xl font-bold tracking-tight text-slate-900 sm:text-3xl">
-                CDC Descomplica
-              </h1>
-              <p className="mt-1 text-sm text-slate-500">
-                Navegue pelo Código de Defesa do Consumidor de forma simples
-              </p>
-            </div>
+    <div className="min-h-screen flex flex-col bg-white bg-[url('/grid.png')] bg-repeat">
+      <Navbar />
+
+      {/* Hero Section with Search */}
+      <section className="pt-32 pb-20 bg-gradient-to-b from-white/80 to-blue-50/20">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6">
+          <div className="text-center max-w-3xl mx-auto mb-12">
+            <h1 className="text-4xl font-bold tracking-tight text-slate-900 sm:text-5xl mb-4">
+              CDC Descomplica
+            </h1>
+            <p className="text-lg text-slate-600">
+              Navegue pelo Código de Defesa do Consumidor de forma simples e
+              intuitiva
+            </p>
           </div>
 
           <SearchBar
@@ -122,50 +94,57 @@ export default function Home() {
             setQuery={setQuery}
             displayQuery={displayQuery}
           />
-        </section>
+        </div>
+      </section>
 
-        <section aria-live="polite">
-          {loading ? (
-            <LoadingSpinner />
-          ) : (
-            <ArticleList
-              loading={loading}
-              displayQuery={displayQuery}
-              results={results}
-              expandedId={expandedId}
-              setExpandedId={setExpandedId}
-            />
-          )}
+      {/* Main Content Section */}
+      <div className="flex-grow">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 py-16">
+          <section aria-live="polite">
+            {loading ? (
+              <LoadingSpinner />
+            ) : (
+              <ArticleList
+                loading={loading}
+                displayQuery={displayQuery}
+                results={results}
+                expandedId={expandedId}
+                setExpandedId={setExpandedId}
+              />
+            )}
 
-          {!loading && (!displayQuery || displayQuery.length < 2) && (
-            <div>
-              <h2 className="mb-3 text-sm font-medium text-gray-600">
-                Destaques
-              </h2>
-              <ul className="grid grid-cols-1 text-gray-600 gap-4 sm:grid-cols-2">
-                {destaques.map((article, idx) => (
-                  <ArticleCard
-                    key={`${article.titulo}-${idx}`}
-                    article={article}
-                    displayQuery=""
-                    expandedId={expandedId}
-                    setExpandedId={setExpandedId}
-                    index={idx}
-                  />
-                ))}
-              </ul>
-            </div>
-          )}
-        </section>
+            {!loading && (!displayQuery || displayQuery.length < 2) && (
+              <div>
+                <h2 className="text-2xl font-bold text-slate-900 mb-6">
+                  Principais Artigos
+                </h2>
+                <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+                  {destaques.map((article, idx) => (
+                    <ArticleCard
+                      key={`${article.titulo}-${idx}`}
+                      article={article}
+                      displayQuery=""
+                      expandedId={expandedId}
+                      setExpandedId={setExpandedId}
+                      index={idx}
+                    />
+                  ))}
+                </div>
+              </div>
+            )}
+          </section>
+        </div>
       </div>
-      <footer className="mt-12 border-t border-slate-200 bg-white">
-        <div className="mx-auto max-w-3xl px-4 py-6 sm:px-6">
+
+      {/* Footer */}
+      <footer className="mt-auto border-t border-slate-200 bg-gradient-to-b from-white to-blue-50">
+        <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6">
           <p className="text-center text-sm text-slate-500">
             CDC Descomplica - Ferramenta de busca para o Código de Defesa do
             Consumidor
           </p>
         </div>
       </footer>
-    </main>
+    </div>
   );
 }
