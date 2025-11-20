@@ -25,8 +25,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="pt-BR" className={`${geist.variable}`}>
       <body className="min-h-screen bg-white antialiased">
-        {/* Modal appears on top of everything */}
-        <DemoModal />
+
 
         {/* Main content */}
         <div className="scroll-smooth">{children}</div>
