@@ -18,7 +18,7 @@ export default function Footer() {
                         <div className="flex flex-wrap gap-6">
                             <div className="flex items-center gap-2">
                                 <div className="w-2 h-2 rounded-full bg-green-500"></div>
-                                <span className="text-sm font-medium text-slate-700">IFMG Campus Ibirité</span>
+                                <span className="text-sm font-medium text-slate-700">Instituto Federal de Minas Gerais - Campus Ibirité</span>
                             </div>
                             <div className="flex items-center gap-2">
                                 <div className="w-2 h-2 rounded-full bg-blue-500"></div>

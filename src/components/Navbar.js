@@ -56,7 +56,7 @@ export default function Navbar() {
                 <div className="flex items-center gap-3 group cursor-default" title="Procon Sete Lagoas">
                   <div className="flex flex-col leading-none justify-center">
                     <span className="text-sm font-bold text-slate-700 group-hover:text-blue-700 transition-colors">PROCON</span>
-                    <span className="text-xs text-slate-500">Sete Lagoas</span>
+                    <span className="text-xs text-slate-500">Lorem Ipsum</span>
                   </div>
                 </div>
               </div>
@@ -115,10 +115,10 @@ export default function Navbar() {
           <div className="pt-4 pb-4 border-t border-slate-200">
             <div className="flex items-center px-5">
               <div className="flex-shrink-0">
-                <div className="flex items-center gap-3 group cursor-default" title="Procon Sete Lagoas">
+                <div className="flex items-center gap-3 group cursor-default" title="Lorem Ipsum">
                   <div className="flex flex-col leading-none justify-center">
                     <span className="text-sm font-bold text-slate-700 group-hover:text-blue-700 transition-colors">PROCON</span>
-                    <span className="text-xs text-slate-500">Sete Lagoas</span>
+                    <span className="text-xs text-slate-500">Lorem Ipsum</span>
                   </div>
                 </div>
               </div>
