@@ -6,6 +6,7 @@ import LoadingSpinner from "../components/LoadingSpinner";
 import ArticleList from "../components/ArticleList";
 import ArticleCard from "../components/ArticleCard";
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 export default function Home() {
   const [items, setItems] = useState([]);
@@ -73,36 +74,42 @@ export default function Home() {
   }, [items]);
 
   return (
-    <div className="min-h-screen flex flex-col bg-white bg-[url('/grid.png')] bg-repeat">
+    <div className="min-h-screen flex flex-col bg-slate-50">
       <Navbar />
 
-      {/* Hero Section with Search */}
-      <section className="pt-32 pb-20 bg-gradient-to-b from-white/80 to-blue-50/20">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6">
-          <div className="text-center max-w-3xl mx-auto mb-12">
-            <h1 className="text-4xl font-bold tracking-tight text-slate-900 sm:text-5xl mb-4">
-              CDC Descomplica
+      <section className="relative pt-32 pb-20 lg:pt-40 lg:pb-28 overflow-hidden">
+        <div className="absolute inset-0 bg-white">
+          <div className="absolute inset-0 bg-[url('/grid.png')] opacity-[0.03] bg-center [mask-image:linear-gradient(180deg,white,rgba(255,255,255,0))]"></div>
+
+        </div>
+
+        <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
+          <div className="max-w-3xl mx-auto mb-12 animate-slideUp">
+            <h1 className="text-4xl font-extrabold tracking-tight text-slate-900 sm:text-5xl lg:text-6xl mb-6">
+              CDC <span className="text-blue-600">Descomplica</span>
             </h1>
-            <p className="text-lg text-slate-600">
-              Navegue pelo Código de Defesa do Consumidor de forma simples e
-              intuitiva
+            <p className="text-lg sm:text-xl text-slate-600 leading-relaxed">
+              Navegue pelo Código de Defesa do Consumidor com facilidade e rapidez.
             </p>
           </div>
 
-          <SearchBar
-            query={query}
-            setQuery={setQuery}
-            displayQuery={displayQuery}
-          />
+          <div className="animate-slideUp" style={{ animationDelay: "0.1s" }}>
+            <SearchBar
+              query={query}
+              setQuery={setQuery}
+              displayQuery={displayQuery}
+            />
+          </div>
         </div>
       </section>
 
-      {/* Main Content Section */}
-      <div className="flex-grow">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 py-16">
-          <section aria-live="polite">
+      <main className="flex-grow relative z-10">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8 py-12">
+          <section aria-live="polite" className="min-h-[400px]">
             {loading ? (
-              <LoadingSpinner />
+              <div className="flex justify-center py-20">
+                <LoadingSpinner />
+              </div>
             ) : (
               <ArticleList
                 loading={loading}
@@ -114,11 +121,15 @@ export default function Home() {
             )}
 
             {!loading && (!displayQuery || displayQuery.length < 2) && (
-              <div>
-                <h2 className="text-2xl font-bold text-slate-900 mb-6">
-                  Principais Artigos
-                </h2>
-                <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+              <div className="animate-fadeIn">
+                <div className="flex items-center gap-4 mb-8">
+                  <h2 className="text-2xl font-bold text-slate-900">
+                    Artigos em Destaque
+                  </h2>
+                  <div className="h-px flex-1 bg-slate-200"></div>
+                </div>
+
+                <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
                   {destaques.map((article, idx) => (
                     <ArticleCard
                       key={`${article.titulo}-${idx}`}
@@ -134,17 +145,9 @@ export default function Home() {
             )}
           </section>
         </div>
-      </div>
+      </main>
 
-      {/* Footer */}
-      <footer className="mt-auto border-t border-slate-200 bg-gradient-to-b from-white to-blue-50">
-        <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6">
-          <p className="text-center text-sm text-slate-500">
-            CDC Descomplica - Ferramenta de busca para o Código de Defesa do
-            Consumidor
-          </p>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 }

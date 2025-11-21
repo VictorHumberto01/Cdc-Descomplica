@@ -13,25 +13,29 @@ export default function ArticleCard({
   const isOpen = expandedId === id;
 
   return (
-    <li className="group relative overflow-hidden rounded-2xl bg-white p-6 shadow-lg ring-1 ring-slate-200 transition-all duration-300 hover:shadow-xl hover:ring-blue-200 hover:-translate-y-1">
-      <div className="absolute inset-0 bg-gradient-to-b from-blue-50/50 to-transparent pointer-events-none"></div>
-      <div className="relative">
-        <div className="flex items-start justify-between gap-4">
-          <div className="min-w-0 flex-1">
-            <div className="flex flex-wrap items-center gap-3 mb-3">
-              <h3 className="text-lg font-semibold text-slate-900 sm:text-xl">
+    <div className="group relative bg-white rounded-2xl shadow-sm ring-1 ring-slate-200 transition-all duration-300 hover:shadow-md hover:ring-blue-200/50">
+      <button
+        onClick={() => setExpandedId(isOpen ? null : id)}
+        className="w-full text-left p-6 sm:p-8 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500 rounded-2xl"
+        aria-expanded={isOpen}
+        aria-controls={`article-${id}`}
+      >
+        <div className="flex items-start justify-between gap-6">
+          <div className="flex-1 min-w-0">
+            <div className="flex flex-wrap items-center gap-3 mb-4">
+              <h3 className="text-xl font-bold text-slate-900 leading-tight">
                 <HighlightedText
                   text={article.titulo}
                   searchQuery={displayQuery}
                 />
               </h3>
               {Array.isArray(article.tags) && article.tags.length > 0 && (
-                <span className="inline-flex items-center rounded-full bg-blue-100 px-3 py-1 text-sm font-medium text-blue-800 ring-1 ring-inset ring-blue-200">
+                <span className="inline-flex items-center rounded-lg bg-blue-50 px-2.5 py-1 text-xs font-semibold text-blue-700 ring-1 ring-inset ring-blue-700/10">
                   {article.tags[0]}
                 </span>
               )}
             </div>
-            <p className="text-base text-slate-600 leading-relaxed">
+            <p className={`text-lg text-slate-600 leading-relaxed group-hover:text-slate-900 transition-colors ${!isOpen ? "line-clamp-3" : ""}`}>
               <HighlightedText
                 text={article.texto}
                 searchQuery={displayQuery}
@@ -39,62 +43,36 @@ export default function ArticleCard({
             </p>
           </div>
 
-          <div className="flex shrink-0 items-start">
-            <button
-              onClick={() => setExpandedId(isOpen ? null : id)}
-              className="inline-flex items-center gap-2 rounded-full bg-white px-4 py-2 text-sm font-medium text-blue-600 transition-all duration-200 shadow-sm ring-1 ring-blue-200 hover:bg-blue-50 hover:ring-blue-300 active:bg-blue-100"
-              aria-expanded={isOpen}
-              aria-controls={`article-${id}`}
+          <div className="flex-shrink-0 pt-1">
+            <div
+              className={`p-2 rounded-full transition-all duration-300 ${isOpen ? "bg-blue-100 text-blue-600 rotate-180" : "bg-slate-100 text-slate-500 group-hover:bg-blue-50 group-hover:text-blue-600"
+                }`}
             >
-              {isOpen ? (
-                <>
-                  Fechar
-                  <svg
-                    className="h-4 w-4 transition-transform duration-200"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M5 15l7-7 7 7"
-                    />
-                  </svg>
-                </>
-              ) : (
-                <>
-                  Expandir
-                  <svg
-                    className="h-4 w-4 transition-transform duration-200"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M19 9l-7 7-7-7"
-                    />
-                  </svg>
-                </>
-              )}
-            </button>
+              <svg
+                className="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                strokeWidth="2"
+              >
+                <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+              </svg>
+            </div>
           </div>
         </div>
+      </button>
 
-        {isOpen && (
-          <div
-            id={`article-${id}`}
-            className="mt-6 border-t border-blue-100 pt-6 animate-fadeIn"
-          >
+      {isOpen && (
+        <div
+          id={`article-${id}`}
+          className="px-6 pb-6 sm:px-8 sm:pb-8 animate-fadeIn"
+        >
+          <div className="border-t border-slate-100 pt-6 space-y-6">
             {Array.isArray(article.paragrafos) &&
               article.paragrafos.length > 0 && (
                 <div className="space-y-4">
                   {article.paragrafos.map((paragrafo, pIdx) => (
-                    <div key={pIdx} className="rounded-lg bg-slate-50 p-4">
+                    <div key={pIdx} className="bg-slate-50/50 rounded-xl p-5 border border-slate-100">
                       <p className="text-base text-slate-700 leading-relaxed">
                         <HighlightedText
                           text={paragrafo.texto}
@@ -103,11 +81,11 @@ export default function ArticleCard({
                       </p>
                       {Array.isArray(paragrafo.incisos) &&
                         paragrafo.incisos.length > 0 && (
-                          <ul className="mt-3 space-y-2 pl-6">
+                          <ul className="mt-4 space-y-3 pl-4 border-l-2 border-blue-100">
                             {paragrafo.incisos.map((inciso, iIdx) => (
                               <li
                                 key={iIdx}
-                                className="text-base text-slate-600 list-disc"
+                                className="text-sm text-slate-600 leading-relaxed pl-2"
                               >
                                 <HighlightedText
                                   text={inciso}
@@ -123,17 +101,17 @@ export default function ArticleCard({
               )}
 
             {Array.isArray(article.incisos) && article.incisos.length > 0 && (
-              <ul className="mt-3 space-y-2 pl-6">
+              <ul className="space-y-3 pl-4 border-l-2 border-blue-100">
                 {article.incisos.map((inciso, idx) => (
-                  <li key={idx} className="text-base text-slate-600 list-disc">
+                  <li key={idx} className="text-base text-slate-600 leading-relaxed pl-2">
                     <HighlightedText text={inciso} searchQuery={displayQuery} />
                   </li>
                 ))}
               </ul>
             )}
           </div>
-        )}
-      </div>
-    </li>
+        </div>
+      )}
+    </div>
   );
 }
