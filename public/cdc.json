@@ -235,6 +235,33 @@
     ]
   },
   {
+    "titulo": "Art. 23",
+    "texto": "A ignorância do fornecedor sobre os vícios de qualidade por inadequação dos produtos e serviços não o exime de responsabilidade.",
+    "paragrafos": [],
+    "incisos": [],
+    "destaque": true,
+    "tags": [
+      "ignorancia",
+      "fornecedor",
+      "vicios",
+      "responsabilidade"
+    ]
+  },
+  {
+    "titulo": "Art. 24",
+    "texto": "A garantia legal de adequação do produto ou serviço independe de termo expresso, vedada a exoneração contratual do fornecedor.",
+    "paragrafos": [],
+    "incisos": [],
+    "destaque": true,
+    "priority": 1,
+    "tags": [
+      "garantia",
+      "legal",
+      "adequacao",
+      "exoneracao"
+    ]
+  },
+  {
     "titulo": "Art. 25",
     "texto": "É vedada a estipulação contratual de cláusula que impossibilite, exonere ou atenue a obrigação de indenizar prevista nesta e nas seções anteriores.",
     "paragrafos": [
