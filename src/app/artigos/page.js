@@ -3,6 +3,8 @@
 import { useEffect, useState } from "react";
 import ArticleList from "../../components/ArticleList";
 import LoadingSpinner from "../../components/LoadingSpinner";
+import Navbar from "../../components/Navbar";
+import Footer from "../../components/Footer";
 
 export default function Articles() {
   const [items, setItems] = useState([]);
@@ -34,21 +36,29 @@ export default function Articles() {
   }, []);
 
   return (
-    <main className="min-h-screen bg-white bg-[url('/grid.png')] bg-repeat">
-      <div className="pt-24 pb-16 bg-linear-to-b from-white/80 to-blue-50/20">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6">
-          <div className="text-center max-w-3xl mx-auto mb-12">
-            <h1 className="text-4xl font-bold tracking-tight text-slate-900 sm:text-5xl mb-4">
-              Todos os Artigos
-            </h1>
-            <p className="text-lg text-slate-600">
-              Explore todos os artigos do Código de Defesa do Consumidor
-            </p>
-          </div>
+    <div className="min-h-screen flex flex-col bg-slate-50">
+      <Navbar />
 
-          <section aria-live="polite" className="max-w-5xl mx-auto">
+      <div className="relative pt-32 pb-12 lg:pt-40 lg:pb-20 overflow-hidden bg-white border-b border-slate-200">
+
+
+        <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
+          <h1 className="text-4xl font-bold tracking-tight text-slate-900 sm:text-5xl mb-4">
+            Todos os Artigos
+          </h1>
+          <p className="text-lg text-slate-600 max-w-2xl mx-auto">
+            Explore os artigos do Código de Defesa do Consumidor catalogados no site.
+          </p>
+        </div>
+      </div>
+
+      <main className="flex-grow relative z-10">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8 py-12">
+          <section aria-live="polite">
             {loading ? (
-              <LoadingSpinner />
+              <div className="flex justify-center py-20">
+                <LoadingSpinner />
+              </div>
             ) : (
               <div className="grid gap-6">
                 <ArticleList
@@ -57,12 +67,15 @@ export default function Articles() {
                   results={items}
                   expandedId={expandedId}
                   setExpandedId={setExpandedId}
+                  allowEmptyQuery={true}
                 />
               </div>
             )}
           </section>
         </div>
-      </div>
-    </main>
+      </main>
+
+      <Footer />
+    </div>
   );
 }
