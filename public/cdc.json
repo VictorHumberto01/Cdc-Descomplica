@@ -26,6 +26,7 @@
     ],
     "incisos": [],
     "destaque": true,
+    "priority": 1,
     "tags": [
       "responsabilidade",
       "vicio",
@@ -43,6 +44,7 @@
     ],
     "incisos": [],
     "destaque": false,
+    "priority": 1,
     "tags": [
       "devolução",
       "produto"
@@ -58,6 +60,7 @@
       "não conservar adequadamente os produtos perecíveis."
     ],
     "destaque": true,
+    "priority": 1,
     "tags": [
       "comerciante",
       "responsabilidade",
@@ -95,6 +98,7 @@
     ],
     "incisos": [],
     "destaque": true,
+    "priority": 1,
     "tags": [
       "fornecedor",
       "serviço",
@@ -141,6 +145,7 @@
     ],
     "incisos": [],
     "destaque": true,
+    "priority": 1,
     "tags": [
       "vício do produto",
       "produto impróprio",
@@ -175,6 +180,7 @@
       "a restituição imediata da quantia paga, monetariamente atualizada, sem prejuízo de eventuais perdas e danos."
     ],
     "destaque": true,
+    "priority": 1,
     "tags": [
       "fornecedores",
       "vicios",
@@ -201,6 +207,7 @@
       "o abatimento proporcional do preço."
     ],
     "destaque": true,
+    "priority": 1,
     "tags": [
       "fornecedor",
       "servicos",
@@ -214,6 +221,7 @@
     "paragrafos": [],
     "incisos": [],
     "destaque": true,
+    "priority": 1,
     "tags": [
       "fornecimento",
       "servicos",
@@ -227,6 +235,7 @@
     "paragrafos": [],
     "incisos": [],
     "destaque": true,
+    "priority": 1,
     "tags": [
       "orgaos",
       "publicos",
@@ -240,6 +249,7 @@
     "paragrafos": [],
     "incisos": [],
     "destaque": true,
+    "priority": 1,
     "tags": [
       "ignorancia",
       "fornecedor",
@@ -274,6 +284,7 @@
         "incisos": []
       }
     ],
+    "priority": 1,
     "tags": [
       "clausula",
       "contratual",
@@ -302,6 +313,7 @@
       "permitir o ingresso em estabelecimentos comerciais ou de serviços de um número maior de consumidores que o fixado pela autoridade"
     ],
     "destaque": true,
+    "priority": 1,
     "tags": [
       "fornecedor",
       "produtos",
@@ -329,6 +341,7 @@
     ],
     "incisos": [],
     "destaque": false,
+    "priority": 1,
     "tags": [
       "fornecedor",
       "servico",
@@ -342,6 +355,7 @@
     "paragrafos": [],
     "incisos": [],
     "destaque": true,
+    "priority": 1,
     "tags": [
       "fornecimento",
       "produtos",
@@ -352,7 +366,7 @@
   },
   {
     "titulo": "Quais os direitos do consumidor estabelecidos no Código do Consumidor?",
-    "texto": "Desde 1990, ano de início da vigência do Código do Consumidor, o fornecedor passou a ter obrigação de oferecer produto ou serviço com qualidade garantida. O consumidor tem o direito de comprar o produto ou a contratar o serviço em perfeitas condições. O fornecedor tem a obrigação de vender o produto ou prestar o serviço de acordo com a qualidade contratada.",
+    "texto": "Desde 1990, ano de início da vigência do Código do Consumidor, o fornecedor passou a ter obrigação de oferecer produto ou serviço com qualidade garantida. O consumidor tem o direito de comprar o produto ou a contratar o serviço em perfeitas condições. O fornecedor tem a obrigação de vender o produto ou prestar o serviço de acordo com a qualidade contratada. (Referência: Art. 6º)",
     "paragrafos": [
       {
         "texto": "Boas condições significa receber o produto de acordo com o descrito no contrato, funcionando conforme o prometido no momento da venda, também não oferecer perigo à vida, à saúde ou à segurança das pessoas; oferecer acesso a todas as informações do produto, tal como funcionamento, composição e cuidados necessários ao bom desempenho do produto. A propaganda deve ser honesta e corresponder fielmente ao produto. Quando se tratar de prestação de serviço, o contrato deve expressar as condições com clareza e objetividade, caso contrário o consumidor tem direito à revisão do contrato com modificação das condições que não estiverem claras.",
@@ -365,6 +379,7 @@
     ],
     "incisos": [],
     "destaque": true,
+    "priority": 4,
     "tags": [
       "direitos",
       "consumidor",
@@ -374,7 +389,7 @@
   },
   {
     "titulo": "Quais as obrigações do fornecedor?",
-    "texto": "O fornecedor não pode colocar a venda produtos que possam causar danos a saúde e à segurança do consumidor. Entretanto, produtos como veneno, inseticidas e outros, são vendidos com autorização, mas devem ter na embalagem orientações de uso, precauções e o que deve ser feito em caso de acidente, tudo em letras grandes, legíveis e escrito com clareza.",
+    "texto": "O fornecedor não pode colocar a venda produtos que possam causar danos a saúde e à segurança do consumidor. Entretanto, produtos como veneno, inseticidas e outros, são vendidos com autorização, mas devem ter na embalagem orientações de uso, precauções e o que deve ser feito em caso de acidente, tudo em letras grandes, legíveis e escrito com clareza. (Referência: Arts. 8º, 9º, 10, 30 e 31)",
     "paragrafos": [
       {
         "texto": "No caso de o produto ter sido colocado à venda e, posteriormente, o fabricante descobrir que oferece algum perigo à integridade do consumidor, o fabricante tem a obrigação de comunicar o fato ocorrido às autoridades o mais rápido possível e, também, anunciar amplamente nos meios de comunicação para informar à população sobre o perigo descoberto. Além disso, o fabricante tem que receber o produto de volta, ainda que esteja usado, para reparação do item perigoso, tudo gratuitamente. Se o fabricante agir de modo diferente, o consumidor tem o direito de pedir indenização pelo perigo a que foi exposto.",
@@ -387,6 +402,7 @@
     ],
     "incisos": [],
     "destaque": true,
+    "priority": 4,
     "tags": [
       "obrigacoes",
       "fornecedor",
@@ -396,7 +412,7 @@
   },
   {
     "titulo": "Quais as proibições impostas ao fornecedor?",
-    "texto": "Nas relações de consumo, as práticas abusivas do mau fornecedor são recorrentes e criativas, tornando uma tarefa quase impossível prever todas as ações, por isso o legislador estabeleceu alguns exemplos com os abusos recorrentes. A relação de consumo é perfeita quando ambas as partes conhecem e consentem, de livre e espontânea vontade, as condições do contrato, verbal ou escrito e não extrapolem os limites da lei (arts. 39 e 51).",
+    "texto": "Nas relações de consumo, as práticas abusivas do mau fornecedor são recorrentes e criativas, tornando uma tarefa quase impossível prever todas as ações, por isso o legislador estabeleceu alguns exemplos com os abusos recorrentes. A relação de consumo é perfeita quando ambas as partes conhecem e consentem, de livre e espontânea vontade, as condições do contrato, verbal ou escrito e não extrapolem os limites da lei (arts. 39 e 51). (Referência: Art. 39)",
     "paragrafos": [],
     "incisos": [
       "limitar o consumidor de comprar a quantidade de produtos por ele desejada, sem um motivo justo;",
@@ -409,6 +425,7 @@
       "deixar de estipular prazo para o cumprimento de suas obrigações."
     ],
     "destaque": true,
+    "priority": 4,
     "tags": [
       "proibicoes",
       "fornecedor",
@@ -418,19 +435,20 @@
   },
   {
     "titulo": "Quais informações devem constar no produto?",
-    "texto": "O rótulo deve ser claro, objetivo, conter prazo de validade e descrição dos componentes do produto e escrito em português. Todos os produtos importados, obrigatoriamente, deverão ter as informações traduzidas para o português.",
+    "texto": "O rótulo deve ser claro, objetivo, conter prazo de validade e descrição dos componentes do produto e escrito em português. Todos os produtos importados, obrigatoriamente, deverão ter as informações traduzidas para o português. (Referência: Art. 31)",
     "paragrafos": [
       {
         "texto": "Se o produto oferecer algum risco à saúde ou à integridade, tal como venenos, deve alertar o consumidor sobre o perigo.",
         "incisos": []
       },
       {
-        "texto": "Em caso de oferta ou venda por telefone, o produto deve conter na embalagem o nome do fabricante e endereço, bem como em todos os papéis de publicidade e documentos como nota de pedido e fiscal.",
+        "texto": "Em caso de oferta ou venda por telefone, o produto deve conter na embalagem o nome do fabricante e endereço, bem como em todos os papéis de publicidade e documentos como nota de pedido e nota fiscal.",
         "incisos": []
       }
     ],
     "incisos": [],
     "destaque": true,
+    "priority": 4,
     "tags": [
       "informacoes",
       "produto",
@@ -440,7 +458,7 @@
   },
   {
     "titulo": "Qual a obrigação dos fabricantes em relação à assistência técnica e à manutenção?",
-    "texto": "Os fabricantes nacionais e os fornecedores de produtos importados devem garantir o fornecimento de peças e de componentes, ainda que a fabricação do produto tenha sido encerrada, por um tempo estabelecido em lei para cada categoria de produto, de modo a permitir a substituição de peças e componentes que apresentem defeitos durante o uso.",
+    "texto": "Os fabricantes nacionais e os fornecedores de produtos importados devem garantir o fornecimento de peças e de componentes, ainda que a fabricação do produto tenha sido encerrada, por um tempo estabelecido em lei para cada categoria de produto, de modo a permitir a substituição de peças e componentes que apresentem defeitos durante o uso. (Referência: Art. 32)",
     "paragrafos": [
       {
         "texto": "A substituição de peças será feita por conta do fornecedor se o produto reclamado estiver dentro do prazo de 30 dias para bens não duráveis ou 90 dias para bens duráveis, ou ainda se estiver na vigência da garantia. Fora destes prazos as despesas correm por conta do consumidor.",
@@ -449,6 +467,7 @@
     ],
     "incisos": [],
     "destaque": true,
+    "priority": 5,
     "tags": [
       "obrigacao",
       "fabricantes",
@@ -459,7 +478,7 @@
   },
   {
     "titulo": "Qual o prazo para reclamar o produto?",
-    "texto": "No Código existem duas determinações de prazo para reclamar o produto defeituoso: noventa dias para produtos de longa duração e trinta dias para os de curta duração, a partir da data da entrega. Para o produto adquirido com defeitos perceptíveis no recebimento e para produtos com defeito imperceptíveis, também no recebimento, para aqueles denominados ocultos, o prazo também é de 30 dias, porém, a partir da data do descobrimento do defeito.",
+    "texto": "No Código existem duas determinações de prazo para reclamar o produto defeituoso: noventa dias para produtos de longa duração e trinta dias para os de curta duração, a partir da data da entrega. Para o produto adquirido com defeitos perceptíveis no recebimento e para produtos com defeito imperceptíveis, também no recebimento, para aqueles denominados ocultos, o prazo também é de 30 dias, porém, a partir da data do descobrimento do defeito. (Referência: Art. 26)",
     "paragrafos": [
       {
         "texto": "Produtos de curta duração são aqueles de uso comum do dia a dia tais como: alimentação, bebida, roupa, livros, bolsa etc.",
@@ -480,6 +499,7 @@
     ],
     "incisos": [],
     "destaque": true,
+    "priority": 4,
     "tags": [
       "prazo",
       "reclamar",
@@ -515,6 +535,7 @@
       }
     ],
     "destaque": true,
+    "priority": 1,
     "tags": [
       "prazo",
       "reclamação",
@@ -539,6 +560,7 @@
       }
     ],
     "destaque": true,
+    "priority": 1,
     "tags": [
       "oferta",
       "publicidade",
@@ -557,6 +579,7 @@
       }
     ],
     "destaque": true,
+    "priority": 1,
     "tags": [
       "publicidade",
       "transparência",
@@ -581,12 +604,649 @@
       }
     ],
     "destaque": true,
+    "priority": 1,
     "tags": [
       "publicidade enganosa",
       "publicidade abusiva",
       "propaganda",
       "propaganda enganosa",
       "proteção ao consumidor"
+    ]
+  },
+  {
+    "titulo": "Art. 28",
+    "texto": "O juiz poderá desconsiderar a personalidade jurídica da sociedade quando, em detrimento do consumidor, houver abuso de direito, excesso de poder, infração da lei, fato ou ato ilícito ou violação dos estatutos ou contrato social. A desconsideração também será efetivada quando houver falência, estado de insolvência, encerramento ou inatividade da pessoa jurídica provocados por má administração.",
+    "paragrafos": [
+      {
+        "texto": "§ 1° (Vetado).",
+        "incisos": []
+      },
+      {
+        "texto": "§ 2° As sociedades integrantes dos grupos societários e as sociedades controladas, são subsidiariamente responsáveis pelas obrigações decorrentes deste código.",
+        "incisos": []
+      },
+      {
+        "texto": "§ 3° As sociedades consorciadas são solidariamente responsáveis pelas obrigações decorrentes deste código.",
+        "incisos": []
+      },
+      {
+        "texto": "§ 4° As sociedades coligadas só responderão por culpa.",
+        "incisos": []
+      },
+      {
+        "texto": "§ 5° Também poderá ser desconsiderada a pessoa jurídica sempre que sua personalidade for, de alguma forma, obstáculo ao ressarcimento de prejuízos causados aos consumidores.",
+        "incisos": []
+      }
+    ],
+    "incisos": [],
+    "destaque": true,
+    "priority": 1,
+    "tags": [
+      "desconsideração da personalidade jurídica",
+      "abuso de direito",
+      "responsabilidade",
+      "falência",
+      "má administração"
+    ]
+  },
+  {
+    "titulo": "Art. 30",
+    "texto": "Toda informação ou publicidade, suficientemente precisa, veiculada por qualquer forma ou meio de comunicação com relação a produtos e serviços oferecidos ou apresentados, obriga o fornecedor que a fizer veicular ou dela se utilizar e integra o contrato que vier a ser celebrado.",
+    "paragrafos": [],
+    "incisos": [],
+    "destaque": true,
+    "priority": 1,
+    "tags": [
+      "oferta",
+      "publicidade",
+      "vinculação",
+      "contrato",
+      "obrigação"
+    ]
+  },
+  {
+    "titulo": "Art. 31",
+    "texto": "A oferta e apresentação de produtos ou serviços devem assegurar informações corretas, claras, precisas, ostensivas e em língua portuguesa sobre suas características, qualidades, quantidade, composição, preço, garantia, prazos de validade e origem, entre outros dados, bem como sobre os riscos que apresentam à saúde e segurança dos consumidores.",
+    "paragrafos": [
+      {
+        "texto": "Parágrafo único. As informações de que trata este artigo, nos produtos refrigerados oferecidos ao consumidor, serão gravadas de forma indelével. (Incluído pela Lei nº 11.989, de 2009)",
+        "incisos": []
+      }
+    ],
+    "incisos": [],
+    "destaque": true,
+    "priority": 1,
+    "tags": [
+      "informação",
+      "oferta",
+      "clareza",
+      "riscos",
+      "saúde",
+      "segurança"
+    ]
+  },
+  {
+    "titulo": "Art. 32",
+    "texto": "Os fabricantes e importadores deverão assegurar a oferta de componentes e peças de reposição enquanto não cessar a fabricação ou importação do produto.",
+    "paragrafos": [
+      {
+        "texto": "Parágrafo único. Cessadas a produção ou importação, a oferta deverá ser mantida por período razoável de tempo, na forma da lei.",
+        "incisos": []
+      }
+    ],
+    "incisos": [],
+    "destaque": true,
+    "priority": 1,
+    "tags": [
+      "peças de reposição",
+      "oferta",
+      "manutenção",
+      "fabricantes",
+      "importadores"
+    ]
+  },
+  {
+    "titulo": "Art. 33",
+    "texto": "Em caso de oferta ou venda por telefone ou reembolso postal, deve constar o nome do fabricante e endereço na embalagem, publicidade e em todos os impressos utilizados na transação comercial.",
+    "paragrafos": [
+      {
+        "texto": "Parágrafo único. É proibida a publicidade de bens e serviços por telefone, quando a chamada for onerosa ao consumidor que a origina. (Incluído pela Lei nº 11.800, de 2008).",
+        "incisos": []
+      }
+    ],
+    "incisos": [],
+    "destaque": true,
+    "priority": 1,
+    "tags": [
+      "venda por telefone",
+      "reembolso postal",
+      "publicidade",
+      "identificação"
+    ]
+  },
+  {
+    "titulo": "Art. 34",
+    "texto": "O fornecedor do produto ou serviço é solidariamente responsável pelos atos de seus prepostos ou representantes autônomos.",
+    "paragrafos": [],
+    "incisos": [],
+    "destaque": true,
+    "priority": 1,
+    "tags": [
+      "solidariedade",
+      "responsabilidade",
+      "fornecedor",
+      "prepostos",
+      "representantes"
+    ]
+  },
+  {
+    "titulo": "Art. 50",
+    "texto": "A garantia contratual é complementar à legal e será conferida mediante termo escrito.",
+    "paragrafos": [
+      {
+        "texto": "Parágrafo único. O termo de garantia ou equivalente deve ser padronizado e esclarecer, de maneira adequada em que consiste a mesma garantia, bem como a forma, o prazo e o lugar em que pode ser exercitada e os ônus a cargo do consumidor, devendo ser-lhe entregue, devidamente preenchido pelo fornecedor, no ato do fornecimento, acompanhado de manual de instrução, de instalação e uso do produto em linguagem didática, com ilustrações.",
+        "incisos": []
+      }
+    ],
+    "incisos": [],
+    "destaque": true,
+    "priority": 1,
+    "tags": [
+      "garantia",
+      "contratual",
+      "termo de garantia",
+      "manual"
+    ]
+  },
+  {
+    "titulo": "Art. 51",
+    "texto": "São nulas de pleno direito, entre outras, as cláusulas contratuais relativas ao fornecimento de produtos e serviços que:",
+    "paragrafos": [
+      {
+        "texto": "§ 1º Presume-se exagerada, entre outros casos, a vantagem que: I - ofende os princípios fundamentais do sistema jurídico a que pertence; II - restringe direitos ou obrigações fundamentais inerentes à natureza do contrato, de tal modo a ameaçar seu objeto ou equilíbrio contratual; III - se mostra excessivamente onerosa para o consumidor, considerando-se a natureza e conteúdo do contrato, o interesse das partes e outras circunstâncias peculiares ao caso.",
+        "incisos": []
+      },
+      {
+        "texto": "§ 2° A nulidade de uma cláusula contratual abusiva não invalida o contrato, exceto quando de sua ausência, apesar dos esforços de integração, decorrer ônus excessivo a qualquer das partes.",
+        "incisos": []
+      },
+      {
+        "texto": "§ 4° É facultado a qualquer consumidor ou entidade que o represente requerer ao Ministério Público que ajuíze a competente ação para ser declarada a nulidade de cláusula contratual que contrarie o disposto neste código ou de qualquer forma não assegure o justo equilíbrio entre direitos e obrigações das partes.",
+        "incisos": []
+      }
+    ],
+    "incisos": [
+      "impossibilitem, exonerem ou atenuem a responsabilidade do fornecedor por vícios de qualquer natureza dos produtos e serviços ou impliquem renúncia ou disposição de direitos;",
+      "subtraiam ao consumidor a opção de reembolso da quantia já paga, nos casos previstos neste código;",
+      "transfiram responsabilidades a terceiros;",
+      "estabeleçam obrigações consideradas iníquas, abusivas, que coloquem o consumidor em desvantagem exagerada, ou sejam incompatíveis com a boa-fé ou a eqüidade;",
+      "estabeleçam inversão do ônus da prova em prejuízo do consumidor;",
+      "determinem a utilização compulsória de arbitragem;",
+      "imponham representante para concluir ou realizar outro negócio jurídico pelo consumidor;",
+      "deixem ao fornecedor a opção de concluir ou não o contrato, embora obrigando o consumidor;",
+      "permitam ao fornecedor, direta ou indiretamente, variação do preço de maneira unilateral;",
+      "autorizem o fornecedor a cancelar o contrato unilateralmente, sem que igual direito seja conferido ao consumidor;",
+      "obriguem o consumidor a ressarcir os custos de cobrança de sua obrigação, sem que igual direito lhe seja conferido contra o fornecedor;",
+      "autorizem o fornecedor a modificar unilateralmente o conteúdo ou a qualidade do contrato, após sua celebração;",
+      "infrinjam ou possibilitem a violação de normas ambientais;",
+      "estejam em desacordo com o sistema de proteção ao consumidor;",
+      "possibilitem a renúncia do direito de indenização por benfeitorias necessárias;",
+      "condicionem ou limitem de qualquer forma o acesso aos órgãos do Poder Judiciário;",
+      "estabeleçam prazos de carência em caso de impontualidade das prestações mensais ou impeçam o restabelecimento integral dos direitos do consumidor e de seus meios de pagamento a partir da purgação da mora ou do acordo com os credores;"
+    ],
+    "destaque": true,
+    "priority": 1,
+    "tags": [
+      "cláusulas abusivas",
+      "nulidade",
+      "contrato",
+      "vantagem exagerada",
+      "reembolso"
+    ]
+  },
+  {
+    "titulo": "Art. 52",
+    "texto": "No fornecimento de produtos ou serviços que envolva outorga de crédito ou concessão de financiamento ao consumidor, o fornecedor deverá, entre outros requisitos, informá-lo prévia e adequadamente sobre:",
+    "paragrafos": [
+      {
+        "texto": "§ 1° As multas de mora decorrentes do inadimplemento de obrigações no seu termo não poderão ser superiores a dois por cento do valor da prestação.",
+        "incisos": []
+      },
+      {
+        "texto": "§ 2º É assegurado ao consumidor a liquidação antecipada do débito, total ou parcialmente, mediante redução proporcional dos juros e demais acréscimos.",
+        "incisos": []
+      }
+    ],
+    "incisos": [
+      "preço do produto ou serviço em moeda corrente nacional;",
+      "montante dos juros de mora e da taxa efetiva anual de juros;",
+      "acréscimos legalmente previstos;",
+      "número e periodicidade das prestações;",
+      "soma total a pagar, com e sem financiamento."
+    ],
+    "destaque": true,
+    "priority": 1,
+    "tags": [
+      "crédito",
+      "financiamento",
+      "juros",
+      "multa",
+      "liquidação antecipada"
+    ]
+  },
+  {
+    "titulo": "Art. 53",
+    "texto": "Nos contratos de compra e venda de móveis ou imóveis mediante pagamento em prestações, bem como nas alienações fiduciárias em garantia, consideram-se nulas de pleno direito as cláusulas que estabeleçam a perda total das prestações pagas em benefício do credor que, em razão do inadimplemento, pleitear a resolução do contrato e a retomada do produto alienado.",
+    "paragrafos": [
+      {
+        "texto": "§ 2º Nos contratos do sistema de consórcio de produtos duráveis, a compensação ou a restituição das parcelas quitadas, na forma deste artigo, terá descontada, além da vantagem econômica auferida com a fruição, os prejuízos que o desistente ou inadimplente causar ao grupo.",
+        "incisos": []
+      }
+    ],
+    "incisos": [],
+    "destaque": true,
+    "priority": 1,
+    "tags": [
+      "compra e venda",
+      "imóveis",
+      "prestações",
+      "perda total",
+      "consórcio",
+      "restituição"
+    ]
+  },
+  {
+    "titulo": "Art. 54",
+    "texto": "Contrato de adesão é aquele cujas cláusulas tenham sido aprovadas pela autoridade competente ou estabelecidas unilateralmente pelo fornecedor de produtos ou serviços, sem que o consumidor possa discutir ou modificar substancialmente seu conteúdo.",
+    "paragrafos": [
+      {
+        "texto": "§ 3o Os contratos de adesão escritos serão redigidos em termos claros e com caracteres ostensivos e legíveis, cujo tamanho da fonte não será inferior ao corpo doze, de modo a facilitar sua compreensão pelo consumidor.",
+        "incisos": []
+      },
+      {
+        "texto": "§ 4° As cláusulas que implicarem limitação de direito do consumidor deverão ser redigidas com destaque, permitindo sua imediata e fácil compreensão.",
+        "incisos": []
+      }
+    ],
+    "incisos": [],
+    "destaque": true,
+    "priority": 1,
+    "tags": [
+      "contrato de adesão",
+      "cláusulas",
+      "legibilidade",
+      "destaque"
+    ]
+  },
+  {
+    "titulo": "Art. 54-A",
+    "texto": "Este Capítulo dispõe sobre a prevenção do superendividamento da pessoa natural, sobre o crédito responsável e sobre a educação financeira do consumidor.",
+    "paragrafos": [
+      {
+        "texto": "§ 1º Entende-se por superendividamento a impossibilidade manifesta de o consumidor pessoa natural, de boa-fé, pagar a totalidade de suas dívidas de consumo, exigíveis e vincendas, sem comprometer seu mínimo existencial, nos termos da regulamentação.",
+        "incisos": []
+      },
+      {
+        "texto": "§ 2º As dívidas referidas no § 1º deste artigo englobam quaisquer compromissos financeiros assumidos decorrentes de relação de consumo, inclusive operações de crédito, compras a prazo e serviços de prestação continuada.",
+        "incisos": []
+      },
+      {
+        "texto": "§ 3º O disposto neste Capítulo não se aplica ao consumidor cujas dívidas tenham sido contraídas mediante fraude ou má-fé, sejam oriundas de contratos celebrados dolosamente com o propósito de não realizar o pagamento ou decorram da aquisição ou contratação de produtos e serviços de luxo de alto valor.",
+        "incisos": []
+      }
+    ],
+    "incisos": [],
+    "destaque": true,
+    "priority": 1,
+    "tags": [
+      "superendividamento",
+      "crédito responsável",
+      "mínimo existencial",
+      "dívidas"
+    ]
+  },
+  {
+    "titulo": "Art. 54-B",
+    "texto": "No fornecimento de crédito e na venda a prazo, além das informações obrigatórias previstas no art. 52 deste Código e na legislação aplicável à matéria, o fornecedor ou o intermediário deverá informar o consumidor, prévia e adequadamente, no momento da oferta, sobre:",
+    "paragrafos": [
+      {
+        "texto": "§ 1º As informações referidas no art. 52 deste Código e no caput deste artigo devem constar de forma clara e resumida do próprio contrato, da fatura ou de instrumento apartado, de fácil acesso ao consumidor.",
+        "incisos": []
+      },
+      {
+        "texto": "§ 2º Para efeitos deste Código, o custo efetivo total da operação de crédito ao consumidor consistirá em taxa percentual anual e compreenderá todos os valores cobrados do consumidor, sem prejuízo do cálculo padronizado pela autoridade reguladora do sistema financeiro.",
+        "incisos": []
+      },
+      {
+        "texto": "§ 3º Sem prejuízo do disposto no art. 37 deste Código, a oferta de crédito ao consumidor e a oferta de venda a prazo, ou a fatura mensal, conforme o caso, devem indicar, no mínimo, o custo efetivo total, o agente financiador e a soma total a pagar, com e sem financiamento.",
+        "incisos": []
+      }
+    ],
+    "incisos": [
+      "o custo efetivo total e a descrição dos elementos que o compõem;",
+      "a taxa efetiva mensal de juros, bem como a taxa dos juros de mora e o total de encargos, de qualquer natureza, previstos para o atraso no pagamento;",
+      "o montante das prestações e o prazo de validade da oferta, que deve ser, no mínimo, de 2 (dois) dias;",
+      "o nome e o endereço, inclusive o eletrônico, do fornecedor;",
+      "o direito do consumidor à liquidação antecipada e não onerosa do débito, nos termos do § 2º do art. 52 deste Código e da regulamentação em vigor."
+    ],
+    "destaque": true,
+    "priority": 1,
+    "tags": [
+      "crédito",
+      "informação",
+      "custo efetivo total",
+      "juros",
+      "oferta"
+    ]
+  },
+  {
+    "titulo": "Art. 54-C",
+    "texto": "É vedado, expressa ou implicitamente, na oferta de crédito ao consumidor, publicitária ou não:",
+    "paragrafos": [],
+    "incisos": [
+      "indicar que a operação de crédito poderá ser concluída sem consulta a serviços de proteção ao crédito ou sem avaliação da situação financeira do consumidor;",
+      "ocultar ou dificultar a compreensão sobre os ônus e os riscos da contratação do crédito ou da venda a prazo;",
+      "assediar ou pressionar o consumidor para contratar o fornecimento de produto, serviço ou crédito, principalmente se se tratar de consumidor idoso, analfabeto, doente ou em estado de vulnerabilidade agravada ou se a contratação envolver prêmio;",
+      "condicionar o atendimento de pretensões do consumidor ou o início de tratativas à renúncia ou à desistência de demandas judiciais, ao pagamento de honorários advocatícios ou a depósitos judiciais."
+    ],
+    "destaque": true,
+    "priority": 1,
+    "tags": [
+      "crédito",
+      "vedações",
+      "oferta",
+      "assédio",
+      "idoso",
+      "vulnerabilidade"
+    ]
+  },
+  {
+    "titulo": "Art. 54-D",
+    "texto": "Na oferta de crédito, previamente à contratação, o fornecedor ou o intermediário deverá, entre outras condutas:",
+    "paragrafos": [
+      {
+        "texto": "Parágrafo único. O descumprimento de qualquer dos deveres previstos no caput deste artigo e nos arts. 52 e 54-C deste Código poderá acarretar judicialmente a redução dos juros, dos encargos ou de qualquer acréscimo ao principal e a dilação do prazo de pagamento previsto no contrato original, conforme a gravidade da conduta do fornecedor e as possibilidades financeiras do consumidor, sem prejuízo de outras sanções e de indenização por perdas e danos, patrimoniais e morais, ao consumidor.",
+        "incisos": []
+      }
+    ],
+    "incisos": [
+      "informar e esclarecer adequadamente o consumidor, considerada sua idade, sobre a natureza e a modalidade do crédito oferecido, sobre todos os custos incidentes, observado o disposto nos arts. 52 e 54-B deste Código, e sobre as consequências genéricas e específicas do inadimplemento;",
+      "avaliar, de forma responsável, as condições de crédito do consumidor, mediante análise das informações disponíveis em bancos de dados de proteção ao crédito, observado o disposto neste Código e na legislação sobre proteção de dados;",
+      "informar a identidade do agente financiador e entregar ao consumidor, ao garante e a outros coobrigados cópia do contrato de crédito."
+    ],
+    "destaque": true,
+    "priority": 1,
+    "tags": [
+      "crédito",
+      "avaliação",
+      "informação",
+      "contrato",
+      "redução de juros"
+    ]
+  },
+  {
+    "titulo": "Art. 54-F",
+    "texto": "São conexos, coligados ou interdependentes, entre outros, o contrato principal de fornecimento de produto ou serviço e os contratos acessórios de crédito que lhe garantam o financiamento quando o fornecedor de crédito: I - recorrer aos serviços do fornecedor de produto ou serviço para a preparação ou a conclusão do contrato de crédito; II - oferecer o crédito no local da atividade empresarial do fornecedor de produto ou serviço financiado ou onde o contrato principal for celebrado.",
+    "paragrafos": [
+      {
+        "texto": "§ 1º O exercício do direito de arrependimento nas hipóteses previstas neste Código, no contrato principal ou no contrato de crédito, implica a resolução de pleno direito do contrato que lhe seja conexo.",
+        "incisos": []
+      },
+      {
+        "texto": "§ 2º Nos casos dos incisos I e II do caput deste artigo, se houver inexecução de qualquer das obrigações e deveres do fornecedor de produto ou serviço, o consumidor poderá requerer a rescisão do contrato não cumprido contra o fornecedor do crédito.",
+        "incisos": []
+      },
+      {
+        "texto": "§ 4º A invalidade ou a ineficácia do contrato principal implicará, de pleno direito, a do contrato de crédito que lhe seja conexo, nos termos do caput deste artigo, ressalvado ao fornecedor do crédito o direito de obter do fornecedor do produto ou serviço a devolução dos valores entregues, inclusive relativamente a tributos.",
+        "incisos": []
+      }
+    ],
+    "incisos": [],
+    "destaque": true,
+    "priority": 1,
+    "tags": [
+      "contratos conexos",
+      "financiamento",
+      "rescisão",
+      "arrependimento"
+    ]
+  },
+  {
+    "titulo": "Art. 54-G",
+    "texto": "Sem prejuízo do disposto no art. 39 deste Código e na legislação aplicável à matéria, é vedado ao fornecedor de produto ou serviço que envolva crédito, entre outras condutas:",
+    "paragrafos": [
+      {
+        "texto": "§ 1º Sem prejuízo do dever de informação e esclarecimento do consumidor e de entrega da minuta do contrato, no empréstimo cuja liquidação seja feita mediante consignação em folha de pagamento, a formalização e a entrega da cópia do contrato ou do instrumento de contratação ocorrerão após o fornecedor do crédito obter da fonte pagadora a indicação sobre a existência de margem consignável.",
+        "incisos": []
+      },
+      {
+        "texto": "§ 2º Nos contratos de adesão, o fornecedor deve prestar ao consumidor, previamente, as informações de que tratam o art. 52 e o caput do art. 54-B deste Código, além de outras porventura determinadas na legislação em vigor, e fica obrigado a entregar ao consumidor cópia do contrato, após a sua conclusão",
+        "incisos": []
+      }
+    ],
+    "incisos": [
+      "realizar ou proceder à cobrança ou ao débito em conta de qualquer quantia que houver sido contestada pelo consumidor em compra realizada com cartão de crédito ou similar, enquanto não for adequadamente solucionada a controvérsia, desde que o consumidor haja notificado a administradora do cartão com antecedência de pelo menos 10 (dez) dias contados da data de vencimento da fatura...",
+      "recusar ou não entregar ao consumidor, ao garante e aos outros coobrigados cópia da minuta do contrato principal de consumo ou do contrato de crédito...",
+      "impedir ou dificultar, em caso de utilização fraudulenta do cartão de crédito ou similar, que o consumidor peça e obtenha, quando aplicável, a anulação ou o imediato bloqueio do pagamento, ou ainda a restituição dos valores indevidamente recebidos."
+    ],
+    "destaque": true,
+    "priority": 1,
+    "tags": [
+      "crédito",
+      "cartão de crédito",
+      "contestação",
+      "fraude",
+      "cópia do contrato"
+    ]
+  },
+  {
+    "titulo": "Art. 66",
+    "texto": "Fazer afirmação falsa ou enganosa, ou omitir informação relevante sobre a natureza, característica, qualidade, quantidade, segurança, desempenho, durabilidade, preço ou garantia de produtos ou serviços:",
+    "paragrafos": [
+      {
+        "texto": "Pena - Detenção de três meses a um ano e multa.",
+        "incisos": []
+      },
+      {
+        "texto": "§ 1º Incorrerá nas mesmas penas quem patrocinar a oferta.",
+        "incisos": []
+      }
+    ],
+    "incisos": [],
+    "destaque": true,
+    "priority": 1,
+    "tags": [
+      "crime",
+      "afirmação falsa",
+      "omissão",
+      "informação"
+    ]
+  },
+  {
+    "titulo": "Art. 67",
+    "texto": "Fazer ou promover publicidade que sabe ou deveria saber ser enganosa ou abusiva:",
+    "paragrafos": [
+      {
+        "texto": "Pena Detenção de três meses a um ano e multa.",
+        "incisos": []
+      }
+    ],
+    "incisos": [],
+    "destaque": true,
+    "priority": 1,
+    "tags": [
+      "crime",
+      "publicidade enganosa",
+      "publicidade abusiva"
+    ]
+  },
+  {
+    "titulo": "Art. 71",
+    "texto": "Utilizar, na cobrança de dívidas, de ameaça, coação, constrangimento físico ou moral, afirmações falsas incorretas ou enganosas ou de qualquer outro procedimento que exponha o consumidor, injustificadamente, a ridículo ou interfira com seu trabalho, descanso ou lazer:",
+    "paragrafos": [
+      {
+        "texto": "Pena Detenção de três meses a um ano e multa.",
+        "incisos": []
+      }
+    ],
+    "incisos": [],
+    "destaque": true,
+    "priority": 1,
+    "tags": [
+      "crime",
+      "cobrança",
+      "ameaça",
+      "coação",
+      "constrangimento"
+    ]
+  },
+  {
+    "titulo": "Posso desistir de uma compra feita pela internet?",
+    "texto": "Sim. O consumidor tem o direito de se arrepender da compra no prazo de 7 dias a contar da assinatura do contrato ou do recebimento do produto, sempre que a contratação ocorrer fora do estabelecimento comercial (internet, telefone, catálogo). Não é preciso justificar o motivo, e o valor pago deve ser devolvido integralmente. (Referência: Art. 49)",
+    "paragrafos": [],
+    "incisos": [],
+    "destaque": true,
+    "priority": 4,
+    "tags": [
+      "arrependimento",
+      "internet",
+      "online",
+      "desistência",
+      "prazo",
+      "devolução"
+    ]
+  },
+  {
+    "titulo": "A loja é obrigada a trocar um produto porque não gostei ou não serviu?",
+    "texto": "Não. Se o produto não tiver defeito, a loja física não é obrigada a realizar a troca por motivo de gosto ou tamanho. A troca só é obrigatória em caso de defeito. Porém, se a loja se comprometeu a trocar (por política própria ou etiqueta de troca), ela deve cumprir o prometido. (Referência: Arts. 30 e 35)",
+    "paragrafos": [],
+    "incisos": [],
+    "destaque": true,
+    "priority": 4,
+    "tags": [
+      "troca",
+      "loja física",
+      "gosto",
+      "tamanho",
+      "presente"
+    ]
+  },
+  {
+    "titulo": "O que é venda casada? É permitido?",
+    "texto": "Venda casada é quando o fornecedor condiciona a venda de um produto ou serviço à aquisição de outro. Exemplo: 'Só vendo o computador se levar o seguro junto'. Isso é proibido pelo Código de Defesa do Consumidor. Você tem o direito de comprar apenas o que deseja. (Referência: Art. 39, I)",
+    "paragrafos": [],
+    "incisos": [],
+    "destaque": true,
+    "priority": 4,
+    "tags": [
+      "venda casada",
+      "proibido",
+      "condicionada",
+      "seguro"
+    ]
+  },
+  {
+    "titulo": "Paguei uma conta indevida. Tenho direito a receber em dobro?",
+    "texto": "Sim. O consumidor cobrado em quantia indevida tem direito à repetição do indébito, por valor igual ao dobro do que pagou em excesso, acrescido de correção monetária e juros legais, salvo hipótese de engano justificável. (Referência: Art. 42, Parágrafo único)",
+    "paragrafos": [],
+    "incisos": [],
+    "destaque": true,
+    "priority": 4,
+    "tags": [
+      "cobrança indevida",
+      "devolução em dobro",
+      "repetição de indébito",
+      "pagamento indevido"
+    ]
+  },
+  {
+    "titulo": "Por quanto tempo meu nome pode ficar sujo no SPC/Serasa?",
+    "texto": "O nome do consumidor não pode permanecer nos cadastros de proteção ao crédito (SPC, Serasa) por período superior a 5 anos. Além disso, o consumidor deve ser notificado por escrito antes da inscrição. (Referência: Art. 43, § 1º e § 2º)",
+    "paragrafos": [],
+    "incisos": [],
+    "destaque": true,
+    "priority": 4,
+    "tags": [
+      "nome sujo",
+      "spc",
+      "serasa",
+      "prazo",
+      "5 anos",
+      "negativação"
+    ]
+  },
+  {
+    "titulo": "Sou obrigado a pagar taxa de consumação ou couvert mínima em bares e baladas?",
+    "texto": "Não. A cobrança de consumação mínima ou 10% de gorjeta é considerada uma prática abusiva e venda casada. O estabelecimento pode cobrar ingresso (entrada) e o que for efetivamente consumido, mas não pode exigir um valor mínimo de consumo. (Referência: Art. 39, I)",
+    "paragrafos": [],
+    "incisos": [],
+    "destaque": true,
+    "priority": 4,
+    "tags": [
+      "consumação mínima",
+      "balada",
+      "bar",
+      "abusiva",
+      "ilegal"
+    ]
+  },
+  {
+    "titulo": "Perdi a comanda no bar. Posso ser multado?",
+    "texto": "Não. A responsabilidade pelo controle do consumo é do estabelecimento. Cobrar multa pela perda da comanda é prática abusiva. O consumidor deve pagar apenas pelo que consumiu. Se não souber o valor, deve-se chegar a um acordo razoável, mas a multa é ilegal. (Referência: Arts. 39, V e 51, IV)",
+    "paragrafos": [],
+    "incisos": [],
+    "destaque": true,
+    "priority": 4,
+    "tags": [
+      "perda da comanda",
+      "multa",
+      "bar",
+      "restaurante",
+      "abusiva"
+    ]
+  },
+  {
+    "titulo": "O preço na prateleira é diferente do preço no caixa. Qual vale?",
+    "texto": "Se houver divergência de preços para o mesmo produto, o consumidor tem o direito de pagar o menor valor. A oferta deve ser cumprida. (Referência: Arts. 30 e 35)",
+    "paragrafos": [],
+    "incisos": [],
+    "destaque": true,
+    "priority": 4,
+    "tags": [
+      "preço",
+      "divergência",
+      "menor preço",
+      "supermercado",
+      "oferta"
+    ]
+  },
+  {
+    "titulo": "Sou obrigado a pagar o couvert artístico?",
+    "texto": "O couvert artístico pode ser cobrado se houver música ao vivo ou outra apresentação artística, desde que o consumidor seja avisado prévia e claramente sobre o valor. Se não houver aviso ou se for apenas música ambiente/telão, a cobrança é indevida. (Referência: Art. 6º, III)",
+    "paragrafos": [],
+    "incisos": [],
+    "destaque": true,
+    "priority": 4,
+    "tags": [
+      "couvert artístico",
+      "música ao vivo",
+      "restaurante",
+      "cobrança"
+    ]
+  },
+  {
+    "titulo": "Qual a diferença entre garantia legal e garantia contratual?",
+    "texto": "A garantia legal é obrigatória por lei: 30 dias para produtos não duráveis e 90 dias para duráveis. A garantia contratual é aquela dada pelo fabricante por liberalidade (ex: 1 ano). A garantia contratual é complementar à legal. (Referência: Arts. 26 e 50)",
+    "paragrafos": [],
+    "incisos": [],
+    "destaque": true,
+    "priority": 4,
+    "tags": [
+      "garantia",
+      "legal",
+      "contratual",
+      "prazo",
+      "diferença"
     ]
   }
 ]

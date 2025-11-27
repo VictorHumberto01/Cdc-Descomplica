@@ -36,7 +36,7 @@ export default function SearchBar({ query, setQuery, displayQuery }) {
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             placeholder="O que você procura no CDC?"
-            className="block w-full border-0 bg-transparent py-5 pl-14 pr-12 text-lg text-slate-900 placeholder:text-slate-400 focus:ring-0 sm:text-xl sm:leading-6"
+            className="block w-full border-0 bg-transparent py-5 pl-14 pr-12 text-lg text-slate-900 placeholder:text-slate-400 focus:ring-0 outline-none sm:text-xl sm:leading-6"
             aria-label="Buscar no Código de Defesa do Consumidor"
           />
           {query && (
