@@ -26,7 +26,12 @@
     ],
     "incisos": [],
     "destaque": true,
-    "tags": ["responsabilidade", "vicio", "produto", "defeito"]
+    "tags": [
+      "responsabilidade",
+      "vicio",
+      "produto",
+      "defeito"
+    ]
   },
   {
     "titulo": "Art. 49",
@@ -38,7 +43,10 @@
     ],
     "incisos": [],
     "destaque": false,
-    "tags": ["devolução", "produto"]
+    "tags": [
+      "devolução",
+      "produto"
+    ]
   },
   {
     "titulo": "Art. 13",
@@ -50,7 +58,12 @@
       "não conservar adequadamente os produtos perecíveis."
     ],
     "destaque": true,
-    "tags": ["comerciante", "responsabilidade", "regresso", "pagamento"]
+    "tags": [
+      "comerciante",
+      "responsabilidade",
+      "regresso",
+      "pagamento"
+    ]
   },
   {
     "titulo": "Art. 14",
@@ -82,7 +95,12 @@
     ],
     "incisos": [],
     "destaque": true,
-    "tags": ["fornecedor", "serviço", "defeito", "riscos"]
+    "tags": [
+      "fornecedor",
+      "serviço",
+      "defeito",
+      "riscos"
+    ]
   },
   {
     "titulo": "Art. 18",
@@ -157,7 +175,12 @@
       "a restituição imediata da quantia paga, monetariamente atualizada, sem prejuízo de eventuais perdas e danos."
     ],
     "destaque": true,
-    "tags": ["fornecedores", "vicios", "quantidade", "produto"]
+    "tags": [
+      "fornecedores",
+      "vicios",
+      "quantidade",
+      "produto"
+    ]
   },
   {
     "titulo": "Art. 20",
@@ -178,7 +201,12 @@
       "o abatimento proporcional do preço."
     ],
     "destaque": true,
-    "tags": ["fornecedor", "servicos", "vicios", "qualidade"]
+    "tags": [
+      "fornecedor",
+      "servicos",
+      "vicios",
+      "qualidade"
+    ]
   },
   {
     "titulo": "Art. 21",
@@ -186,7 +214,12 @@
     "paragrafos": [],
     "incisos": [],
     "destaque": true,
-    "tags": ["fornecimento", "servicos", "reparacao", "produto"]
+    "tags": [
+      "fornecimento",
+      "servicos",
+      "reparacao",
+      "produto"
+    ]
   },
   {
     "titulo": "Art. 22",
@@ -194,7 +227,39 @@
     "paragrafos": [],
     "incisos": [],
     "destaque": true,
-    "tags": ["orgaos", "publicos", "servicos", "essenciais"]
+    "tags": [
+      "orgaos",
+      "publicos",
+      "servicos",
+      "essenciais"
+    ]
+  },
+  {
+    "titulo": "Art. 23",
+    "texto": "A ignorância do fornecedor sobre os vícios de qualidade por inadequação dos produtos e serviços não o exime de responsabilidade.",
+    "paragrafos": [],
+    "incisos": [],
+    "destaque": true,
+    "tags": [
+      "ignorancia",
+      "fornecedor",
+      "vicios",
+      "responsabilidade"
+    ]
+  },
+  {
+    "titulo": "Art. 24",
+    "texto": "A garantia legal de adequação do produto ou serviço independe de termo expresso, vedada a exoneração contratual do fornecedor.",
+    "paragrafos": [],
+    "incisos": [],
+    "destaque": true,
+    "priority": 1,
+    "tags": [
+      "garantia",
+      "legal",
+      "adequacao",
+      "exoneracao"
+    ]
   },
   {
     "titulo": "Art. 25",
@@ -209,7 +274,12 @@
         "incisos": []
       }
     ],
-    "tags": ["clausula", "contratual", "indenizacao", "vedacao"]
+    "tags": [
+      "clausula",
+      "contratual",
+      "indenizacao",
+      "vedacao"
+    ]
   },
   {
     "titulo": "Art. 39",
@@ -232,7 +302,13 @@
       "permitir o ingresso em estabelecimentos comerciais ou de serviços de um número maior de consumidores que o fixado pela autoridade"
     ],
     "destaque": true,
-    "tags": ["fornecedor", "produtos", "servicos", "praticas", "abusivas"]
+    "tags": [
+      "fornecedor",
+      "produtos",
+      "servicos",
+      "praticas",
+      "abusivas"
+    ]
   },
   {
     "titulo": "Art. 40",
@@ -253,7 +329,12 @@
     ],
     "incisos": [],
     "destaque": false,
-    "tags": ["fornecedor", "servico", "orcamento", "previo"]
+    "tags": [
+      "fornecedor",
+      "servico",
+      "orcamento",
+      "previo"
+    ]
   },
   {
     "titulo": "Art. 41",
@@ -261,7 +342,13 @@
     "paragrafos": [],
     "incisos": [],
     "destaque": true,
-    "tags": ["fornecimento", "produtos", "servicos", "controle", "precos"]
+    "tags": [
+      "fornecimento",
+      "produtos",
+      "servicos",
+      "controle",
+      "precos"
+    ]
   },
   {
     "titulo": "Quais os direitos do consumidor estabelecidos no Código do Consumidor?",
@@ -278,7 +365,12 @@
     ],
     "incisos": [],
     "destaque": true,
-    "tags": ["direitos", "consumidor", "codigo", "consumidor"]
+    "tags": [
+      "direitos",
+      "consumidor",
+      "codigo",
+      "consumidor"
+    ]
   },
   {
     "titulo": "Quais as obrigações do fornecedor?",
@@ -295,7 +387,12 @@
     ],
     "incisos": [],
     "destaque": true,
-    "tags": ["obrigacoes", "fornecedor", "danos", "saude"]
+    "tags": [
+      "obrigacoes",
+      "fornecedor",
+      "danos",
+      "saude"
+    ]
   },
   {
     "titulo": "Quais as proibições impostas ao fornecedor?",
@@ -312,7 +409,12 @@
       "deixar de estipular prazo para o cumprimento de suas obrigações."
     ],
     "destaque": true,
-    "tags": ["proibicoes", "fornecedor", "praticas", "abusivas"]
+    "tags": [
+      "proibicoes",
+      "fornecedor",
+      "praticas",
+      "abusivas"
+    ]
   },
   {
     "titulo": "Quais informações devem constar no produto?",
@@ -329,7 +431,12 @@
     ],
     "incisos": [],
     "destaque": true,
-    "tags": ["informacoes", "produto", "rotulo", "validade"]
+    "tags": [
+      "informacoes",
+      "produto",
+      "rotulo",
+      "validade"
+    ]
   },
   {
     "titulo": "Qual a obrigação dos fabricantes em relação à assistência técnica e à manutenção?",
@@ -342,7 +449,13 @@
     ],
     "incisos": [],
     "destaque": true,
-    "tags": ["obrigacao", "fabricantes", "assistencia", "tecnica"]
+    "tags": [
+      "obrigacao",
+      "fabricantes",
+      "assistencia",
+      "tecnica",
+      "troca"
+    ]
   },
   {
     "titulo": "Qual o prazo para reclamar o produto?",
@@ -367,7 +480,12 @@
     ],
     "incisos": [],
     "destaque": true,
-    "tags": ["prazo", "reclamar", "produto", "defeito"]
+    "tags": [
+      "prazo",
+      "reclamar",
+      "produto",
+      "defeito"
+    ]
   },
   {
     "titulo": "Art. 26",
@@ -388,7 +506,6 @@
         "texto": "Obstam a decadência:",
         "incisos": [
           "a reclamação comprovadamente formulada pelo consumidor perante o fornecedor de produtos e serviços até a resposta negativa correspondente, que deve ser transmitida de forma inequívoca",
-          "(Vetado)",
           "a instauração de inquérito civil, até seu encerramento"
         ]
       },
@@ -440,7 +557,11 @@
       }
     ],
     "destaque": true,
-    "tags": ["publicidade", "transparência", "informação"]
+    "tags": [
+      "publicidade",
+      "transparência",
+      "informação"
+    ]
   },
   {
     "titulo": "Art. 37",
