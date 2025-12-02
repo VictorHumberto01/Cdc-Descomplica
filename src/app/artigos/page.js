@@ -5,6 +5,8 @@ import ArticleList from "../../components/ArticleList";
 import LoadingSpinner from "../../components/LoadingSpinner";
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
+import VLibras from "@djpfs/react-vlibras";
+
 
 export default function Articles() {
   const [items, setItems] = useState({ articles: [], summaries: [] });
@@ -75,6 +77,7 @@ export default function Articles() {
   return (
     <div className="min-h-screen flex flex-col bg-slate-50">
       <Navbar />
+      <VLibras forceOnload={true} />
 
       <div className="relative pt-32 pb-12 lg:pt-40 lg:pb-20 overflow-hidden bg-white border-b border-slate-200">
 
