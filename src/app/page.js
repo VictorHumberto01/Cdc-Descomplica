@@ -201,7 +201,7 @@ export default function Home() {
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
           <div className="max-w-3xl mx-auto mb-12 animate-slideUp">
             <h1 className="text-4xl font-extrabold tracking-tight text-slate-900 sm:text-5xl lg:text-6xl mb-6">
-              CDC <span className="text-blue-600">Descomplica</span>
+              CDC <span className="text-rose-600">Descomplica</span>
             </h1>
             <p className="text-lg sm:text-xl text-slate-600 leading-relaxed">
               Navegue pelo Código de Defesa do Consumidor com facilidade e rapidez.
@@ -274,14 +274,14 @@ export default function Home() {
                         <div className="absolute top-1/2 -translate-y-1/2 left-0 right-0 hidden md:flex justify-between px-2 pointer-events-none z-10">
                           <button
                             onClick={prevSummary}
-                            className="pointer-events-auto p-2 rounded-full bg-white/80 shadow-md hover:bg-white text-indigo-600 transition-colors backdrop-blur-sm"
+                            className="pointer-events-auto p-2 rounded-full bg-white/80 shadow-md hover:bg-white text-rose-600 transition-colors backdrop-blur-sm"
                             aria-label="Previous summary"
                           >
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m15 18-6-6 6-6" /></svg>
                           </button>
                           <button
                             onClick={nextSummary}
-                            className="pointer-events-auto p-2 rounded-full bg-white/80 shadow-md hover:bg-white text-indigo-600 transition-colors backdrop-blur-sm"
+                            className="pointer-events-auto p-2 rounded-full bg-white/80 shadow-md hover:bg-white text-rose-600 transition-colors backdrop-blur-sm"
                             aria-label="Next summary"
                           >
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m9 18 6-6-6-6" /></svg>
@@ -298,7 +298,7 @@ export default function Home() {
                                 setDirection(idx > currentSummaryIndex ? 1 : -1);
                                 setCurrentSummaryIndex(idx);
                               }}
-                              className={`w-2 h-2 rounded-full transition-colors ${idx === currentSummaryIndex ? 'bg-indigo-600' : 'bg-indigo-200'}`}
+                              className={`w-2 h-2 rounded-full transition-colors ${idx === currentSummaryIndex ? 'bg-rose-600' : 'bg-rose-200'}`}
                               aria-label={`Go to summary ${idx + 1}`}
                             />
                           ))}

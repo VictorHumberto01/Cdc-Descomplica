@@ -20,12 +20,12 @@ export default function SummaryCard({ article, onDismiss }) {
     };
 
     return (
-        <div className="mb-8 rounded-2xl p-[3px] shadow-lg relative overflow-hidden group bg-gradient-to-br from-indigo-100 via-purple-100 to-blue-100">
+        <div className="mb-8 rounded-2xl p-[3px] shadow-lg relative overflow-hidden group bg-gradient-to-br from-rose-100 via-orange-100 to-red-100">
 
             <AnimatePresence>
                 {showHighlight && (
                     <motion.div
-                        className="absolute inset-[-350%] bg-[conic-gradient(from_90deg,#60a5fa,#6366f1,#a855f7,#60a5fa)]"
+                        className="absolute inset-[-350%] bg-[conic-gradient(from_90deg,#fb7185,#f43f5e,#e11d48,#fb7185)]"
                         animate={{ rotate: 360 }}
                         exit={{ opacity: 0 }}
                         transition={{
@@ -39,8 +39,8 @@ export default function SummaryCard({ article, onDismiss }) {
 
             <div className="relative h-full w-full bg-slate-50 rounded-[14px] p-6 md:px-16 overflow-hidden">
 
-                <div className="absolute top-0 right-0 -mt-4 -mr-4 w-24 h-24 bg-purple-200 rounded-full opacity-20 blur-xl"></div>
-                <div className="absolute bottom-0 left-0 -mb-4 -ml-4 w-32 h-32 bg-indigo-200 rounded-full opacity-20 blur-xl"></div>
+                <div className="absolute top-0 right-0 -mt-4 -mr-4 w-24 h-24 bg-orange-200 rounded-full opacity-20 blur-xl"></div>
+                <div className="absolute bottom-0 left-0 -mb-4 -ml-4 w-32 h-32 bg-rose-200 rounded-full opacity-20 blur-xl"></div>
 
                 <div className="relative z-10">
                     <div className="flex items-center gap-2 mb-4">
@@ -55,12 +55,12 @@ export default function SummaryCard({ article, onDismiss }) {
                                 strokeWidth="2"
                                 strokeLinecap="round"
                                 strokeLinejoin="round"
-                                className="text-indigo-600"
+                                className="text-rose-600"
                             >
                                 <path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z" />
                             </svg>
                         </div>
-                        <h3 className="text-sm font-semibold text-indigo-900 uppercase tracking-wide">
+                        <h3 className="text-sm font-semibold text-rose-900 uppercase tracking-wide">
                             Seu direito resumido
                         </h3>
                     </div>
@@ -69,7 +69,7 @@ export default function SummaryCard({ article, onDismiss }) {
                         {article.titulo}
                     </h2>
 
-                    <div className="prose prose-indigo max-w-none">
+                    <div className="prose prose-rose max-w-none">
                         <p className="text-slate-700 text-lg leading-relaxed">
                             {article.texto}
                         </p>
@@ -102,7 +102,7 @@ export default function SummaryCard({ article, onDismiss }) {
 
                     <div className="mt-6 flex flex-wrap gap-2">
                         {article.tags && article.tags.map((tag, idx) => (
-                            <span key={`${tag}-${idx}`} className="px-3 py-1 bg-white text-indigo-600 text-xs font-medium rounded-full border border-indigo-100">
+                            <span key={`${tag}-${idx}`} className="px-3 py-1 bg-white text-rose-600 text-xs font-medium rounded-full border border-rose-100">
                                 #{tag}
                             </span>
                         ))}

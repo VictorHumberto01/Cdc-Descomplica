@@ -13,10 +13,10 @@ export default function ArticleCard({
   const isOpen = expandedId === id;
 
   return (
-    <div className="group relative bg-white rounded-2xl shadow-sm ring-1 ring-slate-200 transition-all duration-300 hover:shadow-md hover:ring-blue-200/50">
+    <div className="group relative bg-white rounded-2xl shadow-sm ring-1 ring-slate-200 transition-all duration-300 hover:shadow-md hover:ring-rose-200/50">
       <button
         onClick={() => setExpandedId(isOpen ? null : id)}
-        className="w-full text-left p-6 sm:p-8 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500 rounded-2xl"
+        className="w-full text-left p-6 sm:p-8 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-rose-500 rounded-2xl"
         aria-expanded={isOpen}
         aria-controls={`article-${id}`}
       >
@@ -30,7 +30,7 @@ export default function ArticleCard({
                 />
               </h3>
               {Array.isArray(article.tags) && article.tags.length > 0 && (
-                <span className="inline-flex items-center rounded-lg bg-blue-50 px-2.5 py-1 text-xs font-semibold text-blue-700 ring-1 ring-inset ring-blue-700/10">
+                <span className="inline-flex items-center rounded-lg bg-rose-50 px-2.5 py-1 text-xs font-semibold text-rose-700 ring-1 ring-inset ring-rose-700/10">
                   {article.tags[0]}
                 </span>
               )}
@@ -45,7 +45,7 @@ export default function ArticleCard({
 
           <div className="flex-shrink-0 pt-1">
             <div
-              className={`p-2 rounded-full transition-all duration-300 ${isOpen ? "bg-blue-100 text-blue-600 rotate-180" : "bg-slate-100 text-slate-500 group-hover:bg-blue-50 group-hover:text-blue-600"
+              className={`p-2 rounded-full transition-all duration-300 ${isOpen ? "bg-rose-100 text-rose-600 rotate-180" : "bg-slate-100 text-slate-500 group-hover:bg-rose-50 group-hover:text-rose-600"
                 }`}
             >
               <svg
@@ -81,7 +81,7 @@ export default function ArticleCard({
                       </p>
                       {Array.isArray(paragrafo.incisos) &&
                         paragrafo.incisos.length > 0 && (
-                          <ul className="mt-4 space-y-3 pl-4 border-l-2 border-blue-100">
+                          <ul className="mt-4 space-y-3 pl-4 border-l-2 border-rose-100">
                             {paragrafo.incisos.map((inciso, iIdx) => (
                               <li
                                 key={iIdx}
@@ -101,7 +101,7 @@ export default function ArticleCard({
               )}
 
             {Array.isArray(article.incisos) && article.incisos.length > 0 && (
-              <ul className="space-y-3 pl-4 border-l-2 border-blue-100">
+              <ul className="space-y-3 pl-4 border-l-2 border-rose-100">
                 {article.incisos.map((inciso, idx) => (
                   <li key={idx} className="text-base text-slate-600 leading-relaxed pl-2">
                     <HighlightedText text={inciso} searchQuery={displayQuery} />
