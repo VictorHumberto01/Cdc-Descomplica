@@ -4,7 +4,8 @@ export default function HighlightedText({ text = "", searchQuery = "" }) {
   if (!searchQuery) return text;
 
   const parts = [];
-  const lowerText = text.toLowerCase();
+  const safeText = text || "";
+  const lowerText = safeText.toLowerCase();
   const lowerSearch = searchQuery.toLowerCase();
   let lastIndex = 0;
 
