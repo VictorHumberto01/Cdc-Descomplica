@@ -16,8 +16,8 @@ export default function TutorialModal({ isOpen, onClose }) {
             content: (
                 <div className="space-y-6">
                     <div className="flex justify-center py-6">
-                        <div className="bg-blue-50 p-6 rounded-full">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-blue-600"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" /></svg>
+                        <div className="bg-rose-50 p-6 rounded-full">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-rose-600"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" /></svg>
                         </div>
                     </div>
                     <p className="text-slate-600 text-lg leading-relaxed text-center">
@@ -61,15 +61,15 @@ export default function TutorialModal({ isOpen, onClose }) {
                         O site oferece dois tipos de conteúdo:
                     </p>
                     <div className="grid grid-cols-1 gap-4">
-                        <div className="bg-indigo-50 p-5 rounded-xl border border-indigo-100">
-                            <h4 className="font-bold text-indigo-800 mb-2 text-lg">Resumos</h4>
-                            <p className="text-base text-indigo-700">Explicações simples e diretas para dúvidas comuns do dia a dia.</p>
+                        <div className="bg-rose-50 p-5 rounded-xl border border-rose-100">
+                            <h4 className="font-bold text-rose-800 mb-2 text-lg">Resumos</h4>
+                            <p className="text-base text-rose-700">Explicações simples e diretas para dúvidas comuns do dia a dia.</p>
                             <br />
-                            <p className="text-sm text-center text-indigo-400">Alguns tópicos possuem mais de um resumo. Para isso, passe para o lado e veja os outros resumos.</p>
+                            <p className="text-sm text-center text-rose-400">Alguns tópicos possuem mais de um resumo. Para isso, passe para o lado e veja os outros resumos.</p>
                         </div>
-                        <div className="bg-blue-50 p-5 rounded-xl border border-blue-100">
-                            <h4 className="font-bold text-blue-800 mb-2 text-lg">Artigos</h4>
-                            <p className="text-base text-blue-700">O texto original da lei para consulta detalhada e jurídica.</p>
+                        <div className="bg-orange-50 p-5 rounded-xl border border-orange-100">
+                            <h4 className="font-bold text-orange-800 mb-2 text-lg">Artigos</h4>
+                            <p className="text-base text-orange-700">O texto original da lei para consulta detalhada e jurídica.</p>
                         </div>
                     </div>
                 </div>
@@ -139,7 +139,7 @@ export default function TutorialModal({ isOpen, onClose }) {
                                 {steps.map((_, idx) => (
                                     <div
                                         key={idx}
-                                        className={`h-1.5 flex-1 rounded-full transition-colors duration-300 ${idx <= step ? 'bg-blue-600' : 'bg-slate-100'
+                                        className={`h-1.5 flex-1 rounded-full transition-colors duration-300 ${idx <= step ? 'bg-rose-600' : 'bg-slate-100'
                                             }`}
                                     />
                                 ))}
@@ -169,7 +169,7 @@ export default function TutorialModal({ isOpen, onClose }) {
                                         id="dontShowAgain"
                                         checked={dontShowAgain}
                                         onChange={(e) => setDontShowAgain(e.target.checked)}
-                                        className="w-5 h-5 text-blue-600 rounded border-slate-300 focus:ring-blue-500 cursor-pointer"
+                                        className="w-5 h-5 text-rose-600 rounded border-slate-300 focus:ring-rose-500 cursor-pointer"
                                     />
                                     <label htmlFor="dontShowAgain" className="text-slate-600 text-base cursor-pointer select-none">
                                         Não mostrar este tutorial novamente
@@ -189,7 +189,7 @@ export default function TutorialModal({ isOpen, onClose }) {
 
                                 <button
                                     onClick={handleNext}
-                                    className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-full text-lg font-semibold transition-colors shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 active:translate-y-0"
+                                    className="bg-rose-600 hover:bg-rose-700 text-white px-8 py-3 rounded-full text-lg font-semibold transition-colors shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 active:translate-y-0"
                                 >
                                     {step === steps.length - 1 ? 'Começar' : 'Próximo'}
                                 </button>

@@ -13,11 +13,11 @@ export default function SearchBar({ query, setQuery, displayQuery }) {
   return (
     <div className="relative w-full max-w-3xl mx-auto px-4 sm:px-0">
       <div className="relative group">
-        <div className="absolute -inset-1 bg-gradient-to-r from-blue-100 to-blue-50 rounded-2xl blur opacity-20 group-hover:opacity-40 transition duration-1000 group-hover:duration-200"></div>
-        <div className="relative flex items-center bg-white rounded-2xl shadow-xl shadow-blue-900/5 ring-1 ring-slate-200 focus-within:ring-2 focus-within:ring-blue-500 transition-all duration-300">
+        <div className="absolute -inset-1 bg-gradient-to-r from-rose-100 to-rose-50 rounded-2xl blur opacity-20 group-hover:opacity-40 transition duration-1000 group-hover:duration-200"></div>
+        <div className="relative flex items-center bg-white rounded-2xl shadow-xl shadow-rose-900/5 ring-1 ring-slate-200 focus-within:ring-2 focus-within:ring-rose-500 transition-all duration-300">
           <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-5">
             <svg
-              className="h-6 w-6 text-slate-400 group-focus-within:text-blue-500 transition-colors duration-300"
+              className="h-6 w-6 text-slate-400 group-focus-within:text-rose-500 transition-colors duration-300"
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
@@ -72,7 +72,7 @@ export default function SearchBar({ query, setQuery, displayQuery }) {
             <button
               key={index}
               onClick={() => setQuery(keyword)}
-              className="inline-flex items-center rounded-xl px-4 py-2 text-sm font-medium bg-white text-slate-600 shadow-sm ring-1 ring-slate-200 hover:bg-blue-50 hover:text-blue-700 hover:ring-blue-200 transition-all duration-200 active:scale-95"
+              className="inline-flex items-center rounded-xl px-4 py-2 text-sm font-medium bg-white text-slate-600 shadow-sm ring-1 ring-slate-200 hover:bg-rose-50 hover:text-rose-700 hover:ring-rose-200 transition-all duration-200 active:scale-95"
             >
               {keyword}
             </button>
