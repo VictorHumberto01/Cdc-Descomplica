@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useState, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import SearchBar from "../components/SearchBar";
 import LoadingSpinner from "../components/LoadingSpinner";
@@ -10,6 +10,7 @@ import SummaryCard from "../components/SummaryCard";
 import TutorialModal from "../components/TutorialModal";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import VLibras from "@djpfs/react-vlibras";
 
 export default function Home() {
   const [items, setItems] = useState([]);
@@ -20,6 +21,13 @@ export default function Home() {
   const [showTutorial, setShowTutorial] = useState(false);
   const [currentSummaryIndex, setCurrentSummaryIndex] = useState(0);
   const [direction, setDirection] = useState(0);
+  const resultsRef = useRef(null);
+
+  const handleSearch = () => {
+    if (resultsRef.current) {
+      resultsRef.current.scrollIntoView({ behavior: "smooth" });
+    }
+  };
 
   const variants = {
     enter: (direction) => ({
@@ -189,6 +197,7 @@ export default function Home() {
 
   return (
     <div className="min-h-screen flex flex-col bg-slate-50">
+      <VLibras forceOnload={true} />
       <Navbar onOpenTutorial={handleOpenTutorial} />
       <TutorialModal isOpen={showTutorial} onClose={handleCloseTutorial} />
 
@@ -213,12 +222,13 @@ export default function Home() {
               query={query}
               setQuery={setQuery}
               displayQuery={displayQuery}
+              onSearch={handleSearch}
             />
           </div>
         </div>
       </section>
 
-      <main className="flex-grow relative z-10">
+      <main className="flex-grow relative z-10" ref={resultsRef}>
         <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8 py-12">
           <section aria-live="polite" className="min-h-[400px]">
             {loading ? (
