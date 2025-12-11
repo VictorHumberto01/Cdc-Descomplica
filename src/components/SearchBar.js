@@ -25,7 +25,7 @@ export default function SearchBar({ query, setQuery, displayQuery, onSearch }) {
               inputRef.current?.blur();
             }
           }}
-          className="relative flex items-center bg-white rounded-2xl shadow-xl shadow-rose-900/5 ring-1 ring-slate-200 focus-within:ring-2 focus-within:ring-rose-500 transition-all duration-300"
+          className="relative flex items-center bg-white/60 backdrop-blur-md rounded-2xl shadow-xl shadow-rose-900/5 ring-1 ring-slate-200 focus-within:ring-2 focus-within:ring-rose-500 transition-all duration-300"
         >
           <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-5">
             <svg
@@ -83,7 +83,7 @@ export default function SearchBar({ query, setQuery, displayQuery, onSearch }) {
 
       {/* Example Keywords */}
       <div className="mt-6 text-center">
-        <p className="text-sm text-slate-500 font-medium mb-3 px-1">
+        <p className="text-sm text-slate-800 font-medium mb-3 px-1">
           Sugestões de busca:
         </p>
         <div className="flex flex-wrap justify-center gap-2">
