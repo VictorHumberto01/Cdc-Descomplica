@@ -90,7 +90,10 @@ export default function SearchBar({ query, setQuery, displayQuery, onSearch }) {
           {EXAMPLE_KEYWORDS.map((keyword, index) => (
             <button
               key={index}
-              onClick={() => setQuery(keyword)}
+              onClick={() => {
+                setQuery(keyword);
+                if (onSearch) onSearch();
+              }}
               className="inline-flex items-center rounded-xl px-4 py-2 text-sm font-medium bg-white text-slate-600 shadow-sm ring-1 ring-slate-200 hover:bg-rose-50 hover:text-rose-700 hover:ring-rose-200 transition-all duration-200 active:scale-95"
             >
               {keyword}
