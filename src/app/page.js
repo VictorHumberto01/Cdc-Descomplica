@@ -12,6 +12,8 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import VLibras from "@djpfs/react-vlibras";
 
+import ColorBends from "../components/ColorBends";
+
 export default function Home() {
   const [items, setItems] = useState([]);
   const [query, setQuery] = useState("");
@@ -202,17 +204,27 @@ export default function Home() {
       <TutorialModal isOpen={showTutorial} onClose={handleCloseTutorial} />
 
       <section className="relative pt-32 pb-20 lg:pt-40 lg:pb-28 overflow-hidden">
-        <div className="absolute inset-0 bg-white">
+        <div className="absolute inset-0 bg-slate-50 overflow-hidden">
+          <ColorBends
+            colors={["#ff002f78"]}
+            rotation={0}
+            speed={0.1}
+            scale={1.7}
+            frequency={1.2}
+            warpStrength={1}
+            mouseInfluence={0}
+            parallax={0}
+            noise={0}
+          />
           <div className="absolute inset-0 opacity-[0.03] bg-center [mask-image:linear-gradient(180deg,white,rgba(255,255,255,0))]"></div>
-
         </div>
 
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
           <div className="max-w-3xl mx-auto mb-12 animate-slideUp">
             <h1 className="text-4xl font-extrabold tracking-tight text-slate-900 sm:text-5xl lg:text-6xl mb-6">
-              CDC <span className="text-rose-600">Descomplica</span>
+              CDC Descomplica
             </h1>
-            <p className="text-lg sm:text-xl text-slate-600 leading-relaxed">
+            <p className="text-lg sm:text-xl text-slate-800 leading-relaxed">
               Navegue pelo Código de Defesa do Consumidor com facilidade e rapidez.
             </p>
           </div>

@@ -11,10 +11,11 @@ export default function HighlightedText({ text = "", searchQuery = "" }) {
 
   while (true) {
     const index = lowerText.indexOf(lowerSearch, lastIndex);
+
     if (index === -1) {
       // Add remaining text and break
       parts.push({
-        text: text.slice(lastIndex),
+        text: safeText.slice(lastIndex),
         highlight: false
       });
       break;
@@ -23,14 +24,14 @@ export default function HighlightedText({ text = "", searchQuery = "" }) {
     // Add non-matching text
     if (index > lastIndex) {
       parts.push({
-        text: text.slice(lastIndex, index),
+        text: safeText.slice(lastIndex, index),
         highlight: false
       });
     }
 
     // Add matching text
     parts.push({
-      text: text.slice(index, index + searchQuery.length),
+      text: safeText.slice(index, index + searchQuery.length),
       highlight: true
     });
 
