@@ -27,10 +27,8 @@ export default function RootLayout({ children }) {
       <body className="min-h-screen bg-white antialiased">
 
 
-        {/* Main content */}
         <div className="scroll-smooth">{children}</div>
 
-        {/* Add blue gradient overlay at the bottom of every page */}
         <div className="fixed bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-blue-50/50 to-transparent pointer-events-none" />
       </body>
     </html>

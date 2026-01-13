@@ -1,5 +1,7 @@
 "use client";
 
+import { useRef } from "react";
+
 const EXAMPLE_KEYWORDS = [
   "devolução",
   "garantia",
@@ -9,15 +11,25 @@ const EXAMPLE_KEYWORDS = [
   "oferta",
 ];
 
-export default function SearchBar({ query, setQuery, displayQuery }) {
+export default function SearchBar({ query, setQuery, displayQuery, onSearch }) {
+  const inputRef = useRef(null);
   return (
     <div className="relative w-full max-w-3xl mx-auto px-4 sm:px-0">
       <div className="relative group">
-        <div className="absolute -inset-1 bg-gradient-to-r from-blue-100 to-blue-50 rounded-2xl blur opacity-20 group-hover:opacity-40 transition duration-1000 group-hover:duration-200"></div>
-        <div className="relative flex items-center bg-white rounded-2xl shadow-xl shadow-blue-900/5 ring-1 ring-slate-200 focus-within:ring-2 focus-within:ring-blue-500 transition-all duration-300">
+        <div className="absolute -inset-1 bg-gradient-to-r from-rose-100 to-rose-50 rounded-2xl blur opacity-20 group-hover:opacity-40 transition duration-1000 group-hover:duration-200"></div>
+        <form
+          onSubmit={(e) => {
+            e.preventDefault();
+            if (onSearch) {
+              onSearch();
+              inputRef.current?.blur();
+            }
+          }}
+          className="relative flex items-center bg-white/80 backdrop-blur-md rounded-2xl shadow-xl shadow-rose-900/5 ring-1 ring-slate-200 focus-within:ring-2 focus-within:ring-rose-500 transition-all duration-300"
+        >
           <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-5">
             <svg
-              className="h-6 w-6 text-slate-400 group-focus-within:text-blue-500 transition-colors duration-300"
+              className="h-6 w-6 text-slate-400 group-focus-within:text-rose-500 transition-colors duration-300"
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
@@ -32,16 +44,22 @@ export default function SearchBar({ query, setQuery, displayQuery }) {
             </svg>
           </div>
           <input
+            ref={inputRef}
             type="text"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
+            enterKeyHint="search"
             placeholder="O que você procura no CDC?"
-            className="block w-full border-0 bg-transparent py-5 pl-14 pr-12 text-lg text-slate-900 placeholder:text-slate-400 focus:ring-0 sm:text-xl sm:leading-6"
+            className="block w-full border-0 bg-transparent py-5 pl-14 pr-12 text-lg text-slate-900 placeholder:text-slate-400 focus:ring-0 outline-none sm:text-xl sm:leading-6"
             aria-label="Buscar no Código de Defesa do Consumidor"
           />
           {query && (
             <button
-              onClick={() => setQuery("")}
+              type="button"
+              onClick={() => {
+                setQuery("");
+                inputRef.current?.focus();
+              }}
               className="absolute right-3 top-1/2 -translate-y-1/2 p-2 rounded-full text-slate-400 hover:bg-slate-100 hover:text-slate-600 transition-colors"
               aria-label="Limpar busca"
             >
@@ -59,20 +77,23 @@ export default function SearchBar({ query, setQuery, displayQuery }) {
               </svg>
             </button>
           )}
-        </div>
+        </form>
       </div>
 
       {/* Example Keywords */}
       <div className="mt-6 text-center">
-        <p className="text-sm text-slate-500 font-medium mb-3 px-1">
+        <p className="text-sm text-slate-800 font-medium mb-3 px-1">
           Sugestões de busca:
         </p>
         <div className="flex flex-wrap justify-center gap-2">
           {EXAMPLE_KEYWORDS.map((keyword, index) => (
             <button
               key={index}
-              onClick={() => setQuery(keyword)}
-              className="inline-flex items-center rounded-xl px-4 py-2 text-sm font-medium bg-white text-slate-600 shadow-sm ring-1 ring-slate-200 hover:bg-blue-50 hover:text-blue-700 hover:ring-blue-200 transition-all duration-200 active:scale-95"
+              onClick={() => {
+                setQuery(keyword);
+                if (onSearch) onSearch();
+              }}
+              className="inline-flex items-center rounded-xl px-4 py-2 text-sm font-medium bg-white text-slate-600 shadow-sm ring-1 ring-slate-200 hover:bg-rose-50 hover:text-rose-700 hover:ring-rose-200 transition-all duration-200 active:scale-95"
             >
               {keyword}
             </button>

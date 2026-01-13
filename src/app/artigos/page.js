@@ -5,9 +5,11 @@ import ArticleList from "../../components/ArticleList";
 import LoadingSpinner from "../../components/LoadingSpinner";
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
+import VLibras from "@djpfs/react-vlibras";
+
 
 export default function Articles() {
-  const [items, setItems] = useState([]);
+  const [items, setItems] = useState({ articles: [], summaries: [] });
   const [loading, setLoading] = useState(true);
   const [expandedId, setExpandedId] = useState(null);
 
@@ -20,11 +22,48 @@ export default function Articles() {
         if (!res.ok) throw new Error("Failed to load data");
         const data = await res.json();
         if (mounted) {
-          setItems(Array.isArray(data) ? data : []);
+          if (Array.isArray(data)) {
+            const articles = data.filter(item => item.titulo.startsWith("Art."));
+            const summaries = data.filter(item => !item.titulo.startsWith("Art."));
+
+
+            articles.sort((a, b) => {
+              const parseArticle = (str) => {
+                const match = str.match(/Art\.\s*(\d+)(?:-([A-Za-z0-9]+))?/);
+                if (!match) return { num: 0, suffix: "" };
+                return {
+                  num: parseInt(match[1], 10),
+                  suffix: match[2] || ""
+                };
+              };
+
+              const artA = parseArticle(a.titulo);
+              const artB = parseArticle(b.titulo);
+
+              if (artA.num !== artB.num) {
+                return artA.num - artB.num;
+              }
+
+
+              if (!artA.suffix && artB.suffix) return -1;
+              if (artA.suffix && !artB.suffix) return 1;
+
+
+              if (artA.suffix < artB.suffix) return -1;
+              if (artA.suffix > artB.suffix) return 1;
+
+              return 0;
+            });
+
+
+            setItems({ articles, summaries });
+          } else {
+            setItems({ articles: [], summaries: [] });
+          }
         }
       } catch (err) {
         console.error("Failed to load cdc.json", err);
-        if (mounted) setItems([]);
+        if (mounted) setItems({ articles: [], summaries: [] });
       } finally {
         if (mounted) setLoading(false);
       }
@@ -38,6 +77,7 @@ export default function Articles() {
   return (
     <div className="min-h-screen flex flex-col bg-slate-50">
       <Navbar />
+      <VLibras forceOnload={true} />
 
       <div className="relative pt-32 pb-12 lg:pt-40 lg:pb-20 overflow-hidden bg-white border-b border-slate-200">
 
@@ -60,15 +100,50 @@ export default function Articles() {
                 <LoadingSpinner />
               </div>
             ) : (
-              <div className="grid gap-6">
-                <ArticleList
-                  loading={loading}
-                  displayQuery=""
-                  results={items}
-                  expandedId={expandedId}
-                  setExpandedId={setExpandedId}
-                  allowEmptyQuery={true}
-                />
+              <div className="space-y-16">
+                {items.articles && items.articles.length > 0 && (
+                  <section>
+                    <div className="flex items-center gap-3 mb-8">
+                      <div className="h-8 w-1 bg-blue-600 rounded-full"></div>
+                      <h2 className="text-2xl font-bold text-slate-900">
+                        Artigos do Código
+                      </h2>
+                    </div>
+                    <ArticleList
+                      loading={loading}
+                      displayQuery=""
+                      results={items.articles}
+                      expandedId={expandedId}
+                      setExpandedId={setExpandedId}
+                      allowEmptyQuery={true}
+                    />
+                  </section>
+                )}
+
+                {items.summaries && items.summaries.length > 0 && (
+                  <section>
+                    <div className="flex items-center gap-3 mb-8">
+                      <div className="h-8 w-1 bg-indigo-500 rounded-full"></div>
+                      <h2 className="text-2xl font-bold text-slate-900">
+                        Resumos e Dúvidas Frequentes
+                      </h2>
+                    </div>
+                    <ArticleList
+                      loading={loading}
+                      displayQuery=""
+                      results={items.summaries}
+                      expandedId={expandedId}
+                      setExpandedId={setExpandedId}
+                      allowEmptyQuery={true}
+                    />
+                  </section>
+                )}
+
+                {(!items.articles?.length && !items.summaries?.length) && (
+                  <div className="text-center py-12">
+                    <p className="text-slate-500">Nenhum artigo encontrado.</p>
+                  </div>
+                )}
               </div>
             )}
           </section>

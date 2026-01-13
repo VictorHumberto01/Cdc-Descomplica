@@ -4,16 +4,18 @@ export default function HighlightedText({ text = "", searchQuery = "" }) {
   if (!searchQuery) return text;
 
   const parts = [];
-  const lowerText = text.toLowerCase();
+  const safeText = text || "";
+  const lowerText = safeText.toLowerCase();
   const lowerSearch = searchQuery.toLowerCase();
   let lastIndex = 0;
 
   while (true) {
     const index = lowerText.indexOf(lowerSearch, lastIndex);
+
     if (index === -1) {
       // Add remaining text and break
       parts.push({
-        text: text.slice(lastIndex),
+        text: safeText.slice(lastIndex),
         highlight: false
       });
       break;
@@ -22,14 +24,14 @@ export default function HighlightedText({ text = "", searchQuery = "" }) {
     // Add non-matching text
     if (index > lastIndex) {
       parts.push({
-        text: text.slice(lastIndex, index),
+        text: safeText.slice(lastIndex, index),
         highlight: false
       });
     }
 
     // Add matching text
     parts.push({
-      text: text.slice(index, index + searchQuery.length),
+      text: safeText.slice(index, index + searchQuery.length),
       highlight: true
     });
 
