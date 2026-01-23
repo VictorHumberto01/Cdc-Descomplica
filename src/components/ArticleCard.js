@@ -13,7 +13,7 @@ export default function ArticleCard({
   const isOpen = expandedId === id;
 
   return (
-    <div className="group relative bg-white rounded-2xl shadow-sm ring-1 ring-slate-200 transition-all duration-300 hover:shadow-md hover:ring-rose-200/50">
+    <div className="group relative bg-card rounded-2xl shadow-sm ring-1 ring-border transition-all duration-300 hover:shadow-md hover:ring-primary/30">
       <button
         onClick={() => setExpandedId(isOpen ? null : id)}
         className="w-full text-left p-6 sm:p-8 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-rose-500 rounded-2xl"
@@ -67,12 +67,12 @@ export default function ArticleCard({
           id={`article-${id}`}
           className="px-6 pb-6 sm:px-8 sm:pb-8 animate-fadeIn"
         >
-          <div className="border-t border-slate-100 pt-6 space-y-6">
+          <div className="border-t border-border/50 pt-6 space-y-6">
             {Array.isArray(article.paragrafos) &&
               article.paragrafos.length > 0 && (
                 <div className="space-y-4">
                   {article.paragrafos.map((paragrafo, pIdx) => (
-                    <div key={pIdx} className="bg-slate-50/50 rounded-xl p-5 border border-slate-100">
+                    <div key={pIdx} className="bg-muted/30 rounded-xl p-5 border border-border/50">
                       <p className="text-base text-slate-700 leading-relaxed">
                         <HighlightedText
                           text={paragrafo.texto}
