@@ -109,27 +109,16 @@ export default function SummaryCard({ article, onDismiss }) {
                     </div>
 
 
-                    <div className="mt-8 pt-4 border-t border-slate-200/60 flex justify-center">
-                        <button
-                            onClick={handleFeedback}
-                            disabled={isSubmittingFeedback}
-                            className={`text-sm transition-all duration-300 flex items-center gap-2 px-4 py-2 rounded-full ${isSubmittingFeedback
-                                ? "bg-green-100 text-green-700"
-                                : "text-slate-500 hover:text-slate-800 hover:bg-slate-100"
-                                }`}
+                    <div className="mt-8 pt-4 border-t border-slate-200/60 flex flex-col items-center gap-2">
+                        <span className="text-sm text-slate-500">Não encontrou o que procura?</span>
+                        <a
+                            href="tel:151"
+                            className="text-sm font-medium text-rose-600 hover:text-rose-700 transition-colors flex items-center gap-2 px-4 py-2 rounded-full hover:bg-rose-50 md:pointer-events-none md:cursor-default"
                         >
-                            {isSubmittingFeedback ? (
-                                <>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M20 6 9 17l-5-5" /></svg>
-                                    <span>Obrigado pelo feedback!</span>
-                                </>
-                            ) : (
-                                <>
-                                    <span>Isso não foi útil? Informar e ocultar</span>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M10 15v4a3 3 0 0 0 3 3l4-9V2H5.72a2 2 0 0 0-2 1.7l-1.38 9a2 2 0 0 0 2 2.3zm7-13h2.67A2.31 2.31 0 0 1 22 4v7a2.31 2.31 0 0 1-2.33 2H17" /></svg>
-                                </>
-                            )}
-                        </button>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                            <span className="md:hidden">Ligar para o Procon</span>
+                            <span className="hidden md:inline">Procon: 151</span>
+                        </a>
                     </div>
                 </div>
             </div>
