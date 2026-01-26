@@ -7,6 +7,7 @@ import LoadingSpinner from "../components/LoadingSpinner";
 import ArticleList from "../components/ArticleList";
 import ArticleCard from "../components/ArticleCard";
 import SummaryCard from "../components/SummaryCard";
+import DailyTipCard from "../components/DailyTipCard";
 import TutorialModal from "../components/TutorialModal";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
@@ -25,6 +26,7 @@ export default function Home() {
   const [currentSummaryIndex, setCurrentSummaryIndex] = useState(0);
   const [direction, setDirection] = useState(0);
   const [showScrollHint, setShowScrollHint] = useState(false);
+  const [dailyTip, setDailyTip] = useState(null);
   const resultsRef = useRef(null);
 
   const handleSearch = () => {
@@ -79,14 +81,27 @@ export default function Home() {
     async function load() {
       setLoading(true);
       try {
-        const res = await fetch("/cdc.json");
-        if (!res.ok) throw new Error("Failed to load data");
-        const data = await res.json();
+        const [cdcRes, dicasRes] = await Promise.all([
+          fetch("/cdc.json"),
+          fetch("/dicas.json")
+        ]);
+
+        if (!cdcRes.ok) throw new Error("Failed to load CDC data");
+        const cdcData = await cdcRes.json();
+        
         if (mounted) {
-          setItems(Array.isArray(data) ? data : []);
+          setItems(Array.isArray(cdcData) ? cdcData : []);
+        }
+
+        if (dicasRes.ok) {
+          const dicasData = await dicasRes.json();
+          if (mounted && Array.isArray(dicasData) && dicasData.length > 0) {
+            const randomIndex = Math.floor(Math.random() * dicasData.length);
+            setDailyTip(dicasData[randomIndex]);
+          }
         }
       } catch (err) {
-        console.error("Failed to load cdc.json", err);
+        console.error("Failed to load data", err);
         if (mounted) setItems([]);
       } finally {
         if (mounted) setLoading(false);
@@ -211,24 +226,24 @@ export default function Home() {
                         {summaries.length > 1 && (
                           <div className="flex flex-col items-center gap-3 mb-6 animate-fadeIn">
                             <AnimatePresence>
-                              {showScrollHint && (
+                                {showScrollHint && (
                                 <motion.div
                                   initial={{ opacity: 0, y: -10 }}
                                   animate={{ opacity: 1, y: 0 }}
                                   exit={{ opacity: 0, y: -10 }}
-                                  className="bg-rose-600 text-white text-sm px-4 py-2 rounded-xl shadow-lg flex items-center gap-3 mb-2"
+                                  className="bg-rose-600 text-white text-base px-6 py-3 rounded-2xl shadow-lg flex items-center gap-4 mb-2"
                                 >
-                                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg>
-                                  <span>Use as setas ou arraste para ver mais resumos!</span>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg>
+                                  <span className="font-medium">Use as setas ou arraste para ver mais resumos!</span>
                                   <button
                                     onClick={() => {
                                       setShowScrollHint(false);
                                       localStorage.setItem("hasSeenScrollHint", "true");
                                     }}
-                                    className="ml-1 p-1 hover:bg-white/20 rounded-full transition-colors"
+                                    className="ml-2 p-1.5 hover:bg-white/20 rounded-full transition-colors"
                                     aria-label="Fechar dica"
                                   >
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
                                   </button>
                                 </motion.div>
                               )}
@@ -330,25 +345,35 @@ export default function Home() {
             )}
 
             {!loading && (!displayQuery || displayQuery.length < 2) && (
-              <div className="animate-fadeIn">
-                <div className="flex items-center gap-4 mb-8">
-                  <h2 className="text-2xl font-bold text-foreground">
-                    Artigos em Destaque
-                  </h2>
-                  <div className="h-px flex-1 bg-border"></div>
-                </div>
+              <div className="animate-fadeIn space-y-16">
+                {/* Daily Tip Section */}
+                {dailyTip && (
+                  <div>
+                    <DailyTipCard tip={dailyTip} />
+                  </div>
+                )}
 
-                <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
-                  {destaques.map((article, idx) => (
-                    <ArticleCard
-                      key={`${article.titulo}-${idx}`}
-                      article={article}
-                      displayQuery=""
-                      expandedId={expandedId}
-                      setExpandedId={setExpandedId}
-                      index={idx}
-                    />
-                  ))}
+                {/* Artigos em Destaque Section */}
+                <div>
+                  <div className="flex items-center gap-4 mb-8">
+                    <h2 className="text-2xl font-bold text-foreground">
+                      Artigos em Destaque
+                    </h2>
+                    <div className="h-px flex-1 bg-border"></div>
+                  </div>
+
+                  <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
+                    {destaques.map((article, idx) => (
+                      <ArticleCard
+                        key={`${article.titulo}-${idx}`}
+                        article={article}
+                        displayQuery=""
+                        expandedId={expandedId}
+                        setExpandedId={setExpandedId}
+                        index={idx}
+                      />
+                    ))}
+                  </div>
                 </div>
               </div>
             )}

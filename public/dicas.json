@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "titulo": "Passar transtorno como consumidor não é normal!",
+    "texto": "Atraso, cobrança errada, promessa não cumprida e atendimento que não resolve não fazem parte do “jogo”. Quando a empresa erra, o consumidor tem direito à solução.",
+    "base_legal": "Art. 6º, IV, CDC – proteção contra práticas abusivas; Art. 6º, VI, CDC – direito à reparação de danos"
+  },
+  {
+    "id": 2,
+    "titulo": "Preço escondido não é charme, é problema",
+    "texto": "Preço tem que estar claro, visível e fácil de entender. Se só aparece no caixa ou ninguém sabe informar, algo está errado.",
+    "base_legal": "Art. 6º, III, CDC; Art. 31, CDC"
+  },
+  {
+    "id": 3,
+    "titulo": "Promoção não suspende seus direitos (nem por 5 minutos)",
+    "texto": "Liquidação não é desculpa para produto sem garantia ou oferta mal explicada. Direito não entra em oferta.",
+    "base_legal": "Art. 30, CDC; Art. 51, I, CDC"
+  },
+  {
+    "id": 4,
+    "titulo": "Comprou pela internet e bateu o arrependimento? A lei te entende",
+    "texto": "Compras feitas fora da loja física podem ser canceladas em até 7 dias.",
+    "base_legal": "Art. 49, CDC"
+  },
+  {
+    "id": 5,
+    "titulo": "Produto deu defeito? A responsabilidade não é sua",
+    "texto": "A empresa tem prazo para resolver e, se não resolver, o consumidor pode escolher a melhor solução.",
+    "base_legal": "Art. 18, caput e §1º, CDC"
+  },
+  {
+    "id": 6,
+    "titulo": "Cobrança errada não é “normal”, é ilegal",
+    "texto": "Cobrar por algo que você não deve ou de forma constrangedora é prática abusiva.",
+    "base_legal": "Art. 42, caput e parágrafo único, CDC"
+  },
+  {
+    "id": 7,
+    "titulo": "Contrato não é só assinatura, é entendimento",
+    "texto": "Cláusula que o consumidor não consegue entender não pode ser imposta.",
+    "base_legal": "Art. 46, CDC; Art. 51, CDC"
+  },
+  {
+    "id": 8,
+    "titulo": "Telefonia: quando o sinal cai, a paciência vai junto",
+    "texto": "Planos confusos, cobranças indevidas e cancelamento difícil não são normais.",
+    "base_legal": "Art. 6º, III e IV, CDC"
+  },
+  {
+    "id": 9,
+    "titulo": "Banco também responde pelo Código de Defesa do Consumidor",
+    "texto": "Conta, cartão, empréstimo e tarifas seguem o CDC. Banco não está acima da lei.",
+    "base_legal": "Art. 3º, §2º, CDC; Súmula 297 do STJ"
+  },
+  {
+    "id": 10,
+    "titulo": "Nota fiscal não é detalhe, é proteção",
+    "texto": "Sem comprovante, o direito fica mais difícil de provar.",
+    "base_legal": "Art. 6º, VIII, CDC"
+  },
+  {
+    "id": 11,
+    "titulo": "Propaganda bonita que não se cumpre vira problema",
+    "texto": "O que foi anunciado deve ser cumprido exatamente como divulgado.",
+    "base_legal": "Art. 30, CDC; Art. 37, §1º, CDC"
+  },
+  {
+    "id": 12,
+    "titulo": "Energia elétrica não é favor, é serviço essencial",
+    "texto": "Erro de cobrança ou interrupção sem explicação pode ser questionado.",
+    "base_legal": "Art. 22, CDC"
+  },
+  {
+    "id": 13,
+    "titulo": "Ser consumidor não significa aceitar desrespeito",
+    "texto": "Grosseria, humilhação ou constrangimento são proibidos.",
+    "base_legal": "Art. 6º, IV, CDC; Art. 42, CDC"
+  },
+  {
+    "id": 14,
+    "titulo": "Compra online boa é compra segura",
+    "texto": "Informação clara sobre produto, prazo e vendedor é obrigação.",
+    "base_legal": "Art. 6º, III, CDC; Art. 31, CDC"
+  },
+  {
+    "id": 15,
+    "titulo": "Letra miúda não pode esconder armadilha",
+    "texto": "Contrato precisa ser legível e compreensível.",
+    "base_legal": "Art. 46, CDC"
+  },
+  {
+    "id": 16,
+    "titulo": "Com idoso não se brinca — a lei protege",
+    "texto": "Aproveitar-se da idade ou da falta de informação é prática abusiva.",
+    "base_legal": "Art. 39, IV, CDC"
+  },
+  {
+    "id": 17,
+    "titulo": "Promessa feita pelo vendedor também vale",
+    "texto": "Mesmo sem estar no papel, a oferta obriga o fornecedor.",
+    "base_legal": "Art. 30, CDC"
+  },
+  {
+    "id": 18,
+    "titulo": "Cancelar não pode ser mais difícil que contratar",
+    "texto": "Criar obstáculos para atendimento ou cancelamento é ilegal.",
+    "base_legal": "Art. 6º, IV, CDC"
+  },
+  {
+    "id": 19,
+    "titulo": "Produto essencial com defeito não pode esperar",
+    "texto": "Itens essenciais exigem solução imediata.",
+    "base_legal": "Art. 18, §3º, CDC"
+  },
+  {
+    "id": 20,
+    "titulo": "Preço muda conforme pagamento? Avise antes",
+    "texto": "Diferença de valor precisa ser informada claramente.",
+    "base_legal": "Art. 6º, III, CDC; Art. 31, CDC"
+  },
+  {
+    "id": 21,
+    "titulo": "Venda casada é quando empurram algo que você não pediu",
+    "texto": "Ninguém é obrigado a comprar um produto para levar outro.",
+    "base_legal": "Art. 39, I, CDC"
+  },
+  {
+    "id": 22,
+    "titulo": "Produto à venda não pode ter cliente “escolhido”",
+    "texto": "Recusar venda sem motivo justo é prática abusiva.",
+    "base_legal": "Art. 39, II, CDC"
+  },
+  {
+    "id": 23,
+    "titulo": "Consumidor informado evita prejuízo",
+    "texto": "Boa-fé e atenção também fazem parte da relação de consumo.",
+    "base_legal": "Art. 4º, III, CDC"
+  },
+  {
+    "id": 24,
+    "titulo": "PROCON não é só depois do problema",
+    "texto": "Orientação também é proteção.",
+    "base_legal": "Art. 4º, II, CDC"
+  },
+  {
+    "id": 25,
+    "titulo": "Feira, loja pequena ou grande rede: a lei é a mesma",
+    "texto": "Todo fornecedor deve respeitar o consumidor.",
+    "base_legal": "Art. 3º, CDC"
+  },
+  {
+    "id": 26,
+    "titulo": "Desconfie de promessa fácil e pressão para decidir rápido",
+    "texto": "Publicidade enganosa é proibida.",
+    "base_legal": "Art. 37, CDC"
+  },
+  {
+    "id": 27,
+    "titulo": "Consumo consciente começa antes da compra",
+    "texto": "Pensar, comparar e perguntar evita dor de cabeça.",
+    "base_legal": "Art. 4º, IV, CDC"
+  },
+  {
+    "id": 28,
+    "titulo": "Problema não resolvido não precisa virar prejuízo",
+    "texto": "O consumidor tem direito à reparação.",
+    "base_legal": "Art. 6º, VI, CDC"
+  },
+  {
+    "id": 29,
+    "titulo": "Direito do consumidor não é favor",
+    "texto": "É lei de interesse social e deve ser respeitada.",
+    "base_legal": "Art. 1º, CDC"
+  },
+  {
+    "id": 30,
+    "titulo": "PROCON existe pra equilibrar as relações de consumo",
+    "texto": "Defender o consumidor é dever do Estado.",
+    "base_legal": "Art. 5º, XXXII, Constituição Federal; Art. 4º, CDC"
+  }
+]
